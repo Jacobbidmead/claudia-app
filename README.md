@@ -1,3 +1,11 @@
+
+Personal portfolio site for professional photographer Claudia Cantarini. The brief was to keep the design simple and minimalist, with some ambitious photogallery interactions.
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
