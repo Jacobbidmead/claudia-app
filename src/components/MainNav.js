@@ -6,10 +6,10 @@ class MainNav extends React.Component {
     return (
       <>
         <nav className="nav">
-          <div>About</div>
-          <div>Comissions</div>
-          <div>Projects</div>
-          <div>Publications</div>
+          <div className="nav-link">About</div>
+          <div className="nav-link">Comissions</div>
+          <div className="nav-link">Projects</div>
+          <div className="nav-link">Publications</div>
         </nav>
       </>
     );

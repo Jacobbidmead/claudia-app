@@ -12,6 +12,10 @@
   padding: 50px;
 }
 
+.nav-link {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 500px) {
   .nav {
     font-size: 10px;

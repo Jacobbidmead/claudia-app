@@ -7,3 +7,14 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.main-container {
+  display: grid;
+  grid-template-columns: 2fr 7fr;
+  height: 100vh;
+}
+
+/* media */
+
+@media screen and (max-width: 500px) {
+}

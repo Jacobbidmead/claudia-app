@@ -7,6 +7,10 @@ class App extends React.Component {
   render() {
     return (
       <>
+        <div className="main-container">
+          <div className=""></div>
+          <div className=""></div>
+        </div>
         <MainNav />
       </>
     );
