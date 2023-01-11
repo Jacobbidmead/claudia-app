@@ -2,14 +2,14 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainNav from "./components/MainNav";
+import { motion } from "framer-motion";
 
 class App extends React.Component {
   state = {
-    nameBackground: false,
+    nameBackground: true,
   };
 
   listenScrollEvent = (e) => {
-    console.log("work");
     let backgroundBreakpoints = [0, 100, 400];
 
     if (
@@ -35,15 +35,26 @@ class App extends React.Component {
     return (
       <>
         {this.state.nameBackground ? (
-          <div className="name" style={{}}>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            className="name"
+          >
             Claudia Cantarini
-          </div>
+          </motion.div>
         ) : (
           <>
-            <div className="main-container">
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              className="main-container"
+              style={{ transition: " 1s ease" }}
+            >
               <div className=""></div>
               <div className=""></div>
-            </div>
+            </motion.div>
             <MainNav />
           </>
         )}
