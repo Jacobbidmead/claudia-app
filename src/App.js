@@ -5,16 +5,29 @@ import MainNav from "./components/MainNav";
 
 class App extends React.Component {
   state = {
-    nameBackground: true,
+    nameBackground: false,
   };
 
   listenScrollEvent = (e) => {
-    if (window.scrollY > 0 && window.scrollY < 1050) {
+    console.log("work");
+    let backgroundBreakpoints = [0, 100, 400];
+
+    if (
+      window.scrollY > backgroundBreakpoints[0] &&
+      window.scrollY < backgroundBreakpoints[1]
+    ) {
       this.setState({
         nameBackground: true,
       });
     }
+
+    if (window.scrollY > backgroundBreakpoints[2]) {
+      this.setState({
+        nameBackground: false,
+      });
+    }
   };
+
   componentDidMount() {
     window.addEventListener("scroll", this.listenScrollEvent);
   }
@@ -22,15 +35,18 @@ class App extends React.Component {
     return (
       <>
         {this.state.nameBackground ? (
-          <div className="name">Claudia Cantarini</div>
-        ) : (
-          <div className="main-container">
-            <div className=""></div>
-            <div className=""></div>
+          <div className="name" style={{}}>
+            Claudia Cantarini
           </div>
+        ) : (
+          <>
+            <div className="main-container">
+              <div className=""></div>
+              <div className=""></div>
+            </div>
+            <MainNav />
+          </>
         )}
-
-        <MainNav />
       </>
     );
   }
