@@ -4,6 +4,17 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainNav from "./components/MainNav";
 import { motion } from "framer-motion";
 
+const fade = {
+  offscreen: { opacity: 0 },
+  onscreen: {
+    opacity: 1,
+    transition: {
+      type: "tween",
+      duration: 1,
+    },
+  },
+};
+
 class App extends React.Component {
   state = {
     nameBackground: true,
@@ -39,6 +50,10 @@ class App extends React.Component {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
+            transition={{
+              default: { ease: "linear" },
+            }}
+            variants={fade}
             className="name"
           >
             Claudia Cantarini
@@ -48,9 +63,12 @@ class App extends React.Component {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, amount: 0.1 }}
+              variants={fade}
+              transition={{
+                default: { ease: "linear" },
+              }}
               className="main-container"
-              style={{ transition: " 1s ease" }}
             >
               <div className=""></div>
               <div className=""></div>
