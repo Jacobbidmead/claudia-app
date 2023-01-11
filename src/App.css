@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "PolySans";
+  src: url("/public/fonts/PolySans.woff");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

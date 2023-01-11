@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "PolySans";
+  src: url("/public/fonts/PolySans.woff");
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: PolySans;
+  background-color: lightpink;
+  padding: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .nav {
+    font-size: 10px;
+  }
+}

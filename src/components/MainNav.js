@@ -1,15 +1,15 @@
 import React from "react";
+import "../styles/MainNav.css";
 
 class MainNav extends React.Component {
   render() {
     return (
       <>
-        <nav>
+        <nav className="nav">
           <div>About</div>
           <div>Comissions</div>
           <div>Projects</div>
           <div>Publications</div>
-          <div>Home</div>
         </nav>
       </>
     );
