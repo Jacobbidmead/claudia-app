@@ -4,13 +4,32 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainNav from "./components/MainNav";
 
 class App extends React.Component {
+  state = {
+    nameBackground: true,
+  };
+
+  listenScrollEvent = (e) => {
+    if (window.scrollY > 0 && window.scrollY < 1050) {
+      this.setState({
+        nameBackground: true,
+      });
+    }
+  };
+  componentDidMount() {
+    window.addEventListener("scroll", this.listenScrollEvent);
+  }
   render() {
     return (
       <>
-        <div className="main-container">
-          <div className=""></div>
-          <div className=""></div>
-        </div>
+        {this.state.nameBackground ? (
+          <div className="name">Claudia Cantarini</div>
+        ) : (
+          <div className="main-container">
+            <div className=""></div>
+            <div className=""></div>
+          </div>
+        )}
+
         <MainNav />
       </>
     );
