@@ -4,17 +4,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainNav from "./components/MainNav";
 import { motion } from "framer-motion";
 
-const fade = {
-  offscreen: { opacity: 0 },
-  onscreen: {
-    opacity: 1,
-    transition: {
-      type: "tween",
-      duration: 1,
-    },
-  },
-};
-
 class App extends React.Component {
   state = {
     nameBackground: true,
@@ -46,32 +35,15 @@ class App extends React.Component {
     return (
       <>
         {this.state.nameBackground ? (
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              default: { ease: "linear" },
-            }}
-            variants={fade}
-            className="name"
-          >
-            Claudia Cantarini
+          <motion.div className="name">
+            <span className="name-header">Claudia Cantarini</span>
           </motion.div>
         ) : (
           <>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true, amount: 0.1 }}
-              variants={fade}
-              transition={{
-                default: { ease: "linear" },
-              }}
-              className="main-container"
-            >
-              <div className=""></div>
-              <div className=""></div>
+            <motion.div className="main-container">
+              <div className="home-image-container">
+                <img className="home-image" src="images/test.jpeg" alt="" />
+              </div>
             </motion.div>
             <MainNav />
           </>

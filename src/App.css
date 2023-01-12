@@ -14,29 +14,69 @@ body {
 }
 
 .main-container {
-  display: grid;
-  grid-template-columns: 2fr 7fr;
   height: 100vh;
-  background-image: url("/public/images/test.jpeg");
+  animation: fadein 0.5s ease-in-out;
+}
+
+.home-image {
+  width: 65%;
+  margin-top: 190px;
+}
+
+.home-image-container {
+  display: flex;
+  justify-content: center;
 }
 
 .name {
   font-family: PolySans;
-  font-size: 280px;
-  padding-bottom: 1200px;
-  background-color: rgb(51, 51, 51);
+  font-size: 100px;
+  padding-bottom: 1400px;
+  background-color: rgb(64, 99, 241);
   color: lightpink;
+}
+
+.name-header {
+  animation: fadein 0.5s ease-in;
+}
+
+.sidebar {
+  color: black;
+  font-size: 50px;
+  margin-top: 200px;
+  margin-left: 20px;
+}
+
+/* animations */
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* media */
 
 @media screen and (max-width: 500px) {
   .name {
-    font-size: 20px;
-    padding: 0px;
+    font-size: 70px;
   }
 
   .main-container {
-    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .home-image {
+    margin-top: 300px;
   }
 }
