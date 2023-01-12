@@ -15,12 +15,12 @@ body {
 
 .main-container {
   height: 100vh;
-  animation: fadein 0.5s ease-in-out;
 }
 
 .home-image {
   width: 65%;
   margin-top: 190px;
+  animation: fadein 0.2s ease-in-out;
 }
 
 .home-image-container {
@@ -34,10 +34,10 @@ body {
   padding-bottom: 1400px;
   background-color: rgb(64, 99, 241);
   color: lightpink;
+  animation: fadein 0.2s ease-in-out;
 }
 
 .name-header {
-  animation: fadein 0.5s ease-in;
 }
 
 .sidebar {
@@ -61,6 +61,16 @@ body {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
   }
 }
 

@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainNav from "./components/MainNav";
+import HomeImage from "./components/HomeImage";
 import { motion } from "framer-motion";
 
 class App extends React.Component {
@@ -10,7 +11,7 @@ class App extends React.Component {
   };
 
   listenScrollEvent = (e) => {
-    let backgroundBreakpoints = [0, 100, 400];
+    let backgroundBreakpoints = [0, 50, 400];
 
     if (
       window.scrollY > backgroundBreakpoints[0] &&
@@ -41,9 +42,7 @@ class App extends React.Component {
         ) : (
           <>
             <motion.div className="main-container">
-              <div className="home-image-container">
-                <img className="home-image" src="images/test.jpeg" alt="" />
-              </div>
+              <HomeImage />
             </motion.div>
             <MainNav />
           </>
