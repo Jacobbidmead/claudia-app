@@ -1,21 +1,25 @@
 import { useState, useEffect } from "react";
+import "../styles/HomeImage.css";
 
 const images = [
   "images/test.jpeg",
   "images/test2.jpeg",
   "images/test3.jpeg",
   "images/test4.jpeg",
-  "images/test5.jpeg",
   "images/test6.jpeg",
 ];
 
 export default function ImageCounter() {
-  const [currentImage, setCurrentImage] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImage(images[Math.floor(Math.random() * images.length)]);
-    }, 1500);
+      if (currentIndex === images.length - 1) {
+        setCurrentIndex(0);
+      } else {
+        setCurrentIndex(currentIndex + 1);
+      }
+    }, 1000);
 
     return () => clearInterval(interval);
   }, []);
@@ -23,7 +27,7 @@ export default function ImageCounter() {
   return (
     <>
       <div className="home-image-container">
-        <img className="home-image" src={currentImage} alt="" />
+        <img className="home-image" src={images[currentIndex]} alt="" />
       </div>
     </>
   );

@@ -18,9 +18,11 @@ body {
 }
 
 .home-image {
-  width: 65%;
+  width: 45%;
   margin-top: 190px;
-  animation: fadein 0.2s ease-in-out;
+  /* animation: fadein 0.1s ease-in-out; */
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
 }
 
 .home-image-container {
