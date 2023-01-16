@@ -1,8 +1,28 @@
 .image-slider-container {
   display: flex;
   justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
 .slider-image {
-  width: 45%;
+  background-image: cover;
+  background-size: contain;
+}
+
+.arrow-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.arrow-button-left {
+  font-size: 100px;
+  color: white;
+}
+
+.arrow-button-right {
+  font-size: 100px;
+  color: white;
 }

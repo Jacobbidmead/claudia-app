@@ -1,8 +1,10 @@
-.image-slider-container {
-}
-
 .projects-container {
   height: 100vh;
   display: grid;
   grid-template-columns: 2fr 8fr;
+}
+
+.projects-images {
+  width: 50%;
+  height: 50%;
 }

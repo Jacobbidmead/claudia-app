@@ -28,12 +28,12 @@ const ImageSlider = () => {
     <>
       <div className="image-slider-container">
         <img src={images[currentIndex]} alt="" className="slider-image" />
-        <button style={{ width: "60px" }} onClick={goToPrevious}>
-          prev
-        </button>
-        <button style={{ width: "60px" }} onClick={goToNext}>
-          next
-        </button>
+      </div>
+      <div className="arrow-buttons">
+        <div className="arrow-button-right" onClick={goToPrevious}>
+          <i className="fa-solid fa-circle-caret-right"></i>
+        </div>
+        <div className="arrow-button-right" onClick={goToNext}></div>
       </div>
     </>
   );

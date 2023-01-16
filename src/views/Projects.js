@@ -8,7 +8,10 @@ const Projects = () => {
     <>
       <div className="projects-container">
         <div></div>
-        <ImageSlider />
+        <div className="projects-images">
+          {" "}
+          <ImageSlider />
+        </div>
       </div>
       <MainNav />
     </>

@@ -42,9 +42,7 @@ class App extends React.Component {
           </motion.div>
         ) : (
           <>
-            <motion.div className="main-container">
-              <HomeImage />
-            </motion.div>
+            <motion.div className="main-container"></motion.div>
             <MainNav />
           </>
         )}
