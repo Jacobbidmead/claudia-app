@@ -30,10 +30,20 @@ const ImageSlider = () => {
         <img src={images[currentIndex]} alt="" className="slider-image" />
       </div>
       <div className="arrow-buttons">
-        <div className="arrow-button-right" onClick={goToPrevious}>
-          <i className="fa-solid fa-circle-caret-right"></i>
+        <div className="arrow-button-left" onClick={goToPrevious}>
+          <img
+            src="images/angle-left.png"
+            alt=""
+            className="arrow-image-left"
+          />
         </div>
-        <div className="arrow-button-right" onClick={goToNext}></div>
+        <div className="arrow-button-right" onClick={goToNext}>
+          <img
+            src="images/angle-right.png"
+            alt=""
+            className="arrow-image-right"
+          />
+        </div>
       </div>
     </>
   );

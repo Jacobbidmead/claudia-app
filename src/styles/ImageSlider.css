@@ -19,10 +19,36 @@
 
 .arrow-button-left {
   font-size: 100px;
-  color: white;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  background-color: rgba(174, 165, 165, 0.6);
+}
+
+.arrow-button-left:hover {
+  background-color: rgba(174, 165, 165, 0.6);
 }
 
 .arrow-button-right {
   font-size: 100px;
-  color: white;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  background-color: rgba(174, 165, 165, 0.6);
+}
+
+.arrow-button-right:hover {
+  background-color: rgba(174, 165, 165, 0.6);
+}
+
+.arrow-image-right {
+  height: 40px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+.arrow-image-left {
+  height: 40px;
+  padding-bottom: 30px;
+  padding-left: 18px;
 }
