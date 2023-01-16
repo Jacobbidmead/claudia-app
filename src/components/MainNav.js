@@ -1,19 +1,29 @@
 import React from "react";
 import "../styles/MainNav.css";
+import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import About from "../views/About.js";
+import App from "../App.js";
 
-class MainNav extends React.Component {
-  render() {
-    return (
-      <>
-        <nav className="nav">
-          <div className="nav-link">About</div>
-          <div className="nav-link">Comissions</div>
-          <div className="nav-link">Projects</div>
-          <div className="nav-link">Publications</div>
+const MainNav = () => {
+  return (
+    <>
+      <BrowserRouter>
+        <nav>
+          <div>
+            <Link>About</Link>
+          </div>
+          <div>
+            <Link>Home</Link>
+          </div>
         </nav>
-      </>
-    );
-  }
-}
+        <Routes>
+          <Route path="/" exact component={App} />
+
+          <Route path="/about" exact component={About} />
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
+};
 
 export default MainNav;

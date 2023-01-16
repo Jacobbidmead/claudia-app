@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainNav from "./components/MainNav";
 import HomeImage from "./components/HomeImage";
 import { motion } from "framer-motion";
 import ImageSlider from "./components/ImageSlider";
+import About from "./views/About";
 
 class App extends React.Component {
   state = {
