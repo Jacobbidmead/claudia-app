@@ -3,8 +3,6 @@ import "./App.css";
 import MainNav from "./components/MainNav";
 import HomeImage from "./components/HomeImage";
 import { motion } from "framer-motion";
-import ImageSlider from "./components/ImageSlider";
-import About from "./views/About";
 
 class App extends React.Component {
   state = {
@@ -38,12 +36,14 @@ class App extends React.Component {
       <>
         {this.state.nameBackground ? (
           <motion.div className="name">
-            <span className="name-header">Claudia Cantarini</span>
+            <span className="name-header">
+              <span>Claudia</span> <span>Cantarini</span>
+            </span>
           </motion.div>
         ) : (
           <>
             <motion.div className="main-container">
-              <ImageSlider />
+              <HomeImage />
             </motion.div>
             <MainNav />
           </>

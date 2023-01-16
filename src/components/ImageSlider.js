@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import "../styles/ImageSlider.css";
 
 const ImageSlider = () => {
   let images = [
@@ -25,8 +26,8 @@ const ImageSlider = () => {
 
   return (
     <>
-      <div className="home-image-container">
-        <img src={images[currentIndex]} className="home-image" />
+      <div className="image-slider-container">
+        <img src={images[currentIndex]} className="slider-image" />
       </div>
       <button style={{ width: "60px" }} onClick={goToPrevious}>
         prev

@@ -1,8 +1,6 @@
 import React from "react";
 import "../styles/MainNav.css";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
-import About from "../views/About.js";
-import App from "../App.js";
 
 const MainNav = () => {
   return (
@@ -12,9 +10,6 @@ const MainNav = () => {
           <Link to="/about">About</Link>
         </div>
         <div className="nav-link">
-          <Link to="/">Home</Link>
-        </div>
-        <div className="nav-link">
           <Link to="/projects">Projects</Link>
         </div>
         <div className="nav-link">
@@ -22,6 +17,9 @@ const MainNav = () => {
         </div>
         <div className="nav-link">
           <Link to="/publications">Publications</Link>
+        </div>
+        <div className="nav-link">
+          <Link to="/">Home</Link>
         </div>
       </nav>
     </>

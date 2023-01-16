@@ -10,12 +10,12 @@
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 body {
   margin: 0;
   padding: 0;
-  text-decoration: none;
 }
 
 .main-container {
@@ -25,9 +25,9 @@ body {
 .home-image {
   width: 45%;
   margin-top: 190px;
-  /* animation: fadein 0.1s ease-in-out; */
   -webkit-transition: -webkit-transform 0.8s;
   transition: transform 0.8s;
+  animation: fadein 1s ease-in-out;
 }
 
 .home-image-container {
@@ -37,11 +37,11 @@ body {
 
 .name {
   font-family: PolySans;
-  font-size: 100px;
+  font-size: 200px;
   padding-bottom: 1400px;
   background-color: #193718;
   color: #ff8bff;
-  animation: fadein 0.2s ease-in-out;
+  animation: fadein 0.3s ease-in-out;
 }
 
 .sidebar {
@@ -57,12 +57,7 @@ body {
   0% {
     opacity: 0;
   }
-  25% {
-    opacity: 0.25;
-  }
-  50% {
-    opacity: 0.5;
-  }
+
   100% {
     opacity: 1;
   }
