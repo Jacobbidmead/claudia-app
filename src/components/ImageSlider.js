@@ -27,14 +27,14 @@ const ImageSlider = () => {
   return (
     <>
       <div className="image-slider-container">
-        <img src={images[currentIndex]} className="slider-image" />
+        <img src={images[currentIndex]} alt="" className="slider-image" />
+        <button style={{ width: "60px" }} onClick={goToPrevious}>
+          prev
+        </button>
+        <button style={{ width: "60px" }} onClick={goToNext}>
+          next
+        </button>
       </div>
-      <button style={{ width: "60px" }} onClick={goToPrevious}>
-        prev
-      </button>
-      <button style={{ width: "60px" }} onClick={goToNext}>
-        next
-      </button>
     </>
   );
 };

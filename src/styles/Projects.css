@@ -1,4 +1,8 @@
 .image-slider-container {
-  display: flex;
-  justify-content: center;
+}
+
+.projects-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 8fr;
 }

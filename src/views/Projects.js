@@ -1,12 +1,15 @@
 import React from "react";
 import ImageSlider from "../components/ImageSlider";
 import MainNav from "../components/MainNav";
+import "../styles/Projects.css";
 
 const Projects = () => {
   return (
     <>
-      <div style={{ fontSize: "200px" }}>Projects</div>
-      <ImageSlider />
+      <div className="projects-container">
+        <div></div>
+        <ImageSlider />
+      </div>
       <MainNav />
     </>
   );

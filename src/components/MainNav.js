@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/MainNav.css";
-import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const MainNav = () => {
   return (
