@@ -5,7 +5,9 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 import About from "./views/About";
-import Comissons from "./views/Commissions";
+import Commissons from "./views/Commissions";
+import Projects from "./views/Projects";
+import Publications from "./views/Publications";
 
 const router = createBrowserRouter([
   {
@@ -18,15 +20,15 @@ const router = createBrowserRouter([
   },
   {
     path: "/Commissions",
-    element: <About />,
+    element: <Commissons />,
   },
   {
     path: "/Projects",
-    element: <About />,
+    element: <Projects />,
   },
   {
     path: "/Publications",
-    element: <About />,
+    element: <Publications />,
   },
 ]);
 
