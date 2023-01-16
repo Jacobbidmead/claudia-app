@@ -1,15 +1,14 @@
 import React from "react";
 import { useState } from "react";
 
-const images = [
-  "images/test.jpeg",
-  "images/test2.jpeg",
-  "images/test3.jpeg",
-  "images/test4.jpeg",
-  "images/test6.jpeg",
-];
-
-const ImageSlider = (images) => {
+const ImageSlider = () => {
+  let images = [
+    "images/test.jpeg",
+    "images/test2.jpeg",
+    "images/test3.jpeg",
+    "images/test4.jpeg",
+    "images/test6.jpeg",
+  ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goToPrevious = () => {
@@ -19,18 +18,22 @@ const ImageSlider = (images) => {
   };
 
   const goToNext = () => {
-    const isLastImage = currentIndex === slides.length - 1;
+    const isLastImage = currentIndex === images.length - 1;
     const newIndex = isLastImage ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex);
   };
 
   return (
     <>
-      <div>
-        <img src={images[currentIndex]} />
+      <div className="home-image-container">
+        <img src={images[currentIndex]} className="home-image" />
       </div>
-      <button onClick={goToPrevious}></button>
-      <button onClick={goToNext}></button>
+      <button style={{ width: "60px" }} onClick={goToPrevious}>
+        prev
+      </button>
+      <button style={{ width: "60px" }} onClick={goToNext}>
+        next
+      </button>
     </>
   );
 };
