@@ -7,21 +7,23 @@ import App from "../App.js";
 const MainNav = () => {
   return (
     <>
-      <BrowserRouter>
-        <nav>
-          <div>
-            <Link>About</Link>
-          </div>
-          <div>
-            <Link>Home</Link>
-          </div>
-        </nav>
-        <Routes>
-          <Route path="/" exact component={App} />
-
-          <Route path="/about" exact component={About} />
-        </Routes>
-      </BrowserRouter>
+      <nav className="nav">
+        <div className="nav-link">
+          <Link to="/about">About</Link>
+        </div>
+        <div className="nav-link">
+          <Link to="/">Home</Link>
+        </div>
+        <div className="nav-link">
+          <Link>Projects</Link>
+        </div>
+        <div className="nav-link">
+          <Link>Commissions</Link>
+        </div>
+        <div className="nav-link">
+          <Link>Publications</Link>
+        </div>
+      </nav>
     </>
   );
 };

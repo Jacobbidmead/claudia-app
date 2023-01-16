@@ -8,9 +8,14 @@
   background-color: lightpink;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 .main-container {
@@ -37,9 +42,6 @@ body {
   background-color: #193718;
   color: #ff8bff;
   animation: fadein 0.2s ease-in-out;
-}
-
-.name-header {
 }
 
 .sidebar {

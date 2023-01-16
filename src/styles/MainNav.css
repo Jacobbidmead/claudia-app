@@ -10,10 +10,12 @@
   font-family: PolySans;
   background-color: rgb(188, 213, 240);
   padding: 50px;
+  text-decoration: none;
 }
 
 .nav-link {
   cursor: pointer;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 500px) {

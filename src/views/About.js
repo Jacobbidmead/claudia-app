@@ -1,7 +1,9 @@
+import React from "react";
+
 const About = () => {
   return (
     <>
-      <div>About</div>
+      <div style={{ fontSize: "200px" }}>About</div>
     </>
   );
 };
