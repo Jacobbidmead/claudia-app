@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainNav from "./components/MainNav";
 import HomeImage from "./components/HomeImage";
 import { motion } from "framer-motion";
+import ImageSlider from "./components/ImageSlider";
 
 class App extends React.Component {
   state = {
@@ -42,7 +43,7 @@ class App extends React.Component {
         ) : (
           <>
             <motion.div className="main-container">
-              <HomeImage />
+              <ImageSlider />
             </motion.div>
             <MainNav />
           </>

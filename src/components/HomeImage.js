@@ -1,34 +1,36 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/HomeImage.css";
 
-const images = [
-  "images/test.jpeg",
-  "images/test2.jpeg",
-  "images/test3.jpeg",
-  "images/test4.jpeg",
-  "images/test6.jpeg",
-];
+const ImageCounter = () => {
+  let images = [
+    "images/test.jpeg",
+    "images/test2.jpeg",
+    "images/test3.jpeg",
+    "images/test4.jpeg",
+    "images/test6.jpeg",
+  ];
+  const [currentImage, setCurrentImage] = useState(images[0]);
 
-export default function ImageCounter() {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const changeBackground = () => {
+    let currentIndex = images.indexOf(currentImage);
+    if (currentIndex === images.length - 1) {
+      currentIndex = -1;
+    }
+    setCurrentImage(images[currentIndex + 1]);
+  };
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      if (currentIndex === images.length - 1) {
-        setCurrentIndex(0);
-      } else {
-        setCurrentIndex(currentIndex + 1);
-      }
-    }, 1000);
-
-    return () => clearInterval(interval);
+    const intervalId = setInterval(changeBackground, 1000);
+    return () => clearInterval(intervalId);
   }, []);
 
   return (
     <>
       <div className="home-image-container">
-        <img className="home-image" src={images[currentIndex]} alt="" />
+        <img src={currentImage} className="home-image" />
       </div>
     </>
   );
-}
+};
+
+export default ImageCounter;

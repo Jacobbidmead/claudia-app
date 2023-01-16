@@ -34,8 +34,8 @@ body {
   font-family: PolySans;
   font-size: 100px;
   padding-bottom: 1400px;
-  background-color: rgb(64, 99, 241);
-  color: lightpink;
+  background-color: #193718;
+  color: #ff8bff;
   animation: fadein 0.2s ease-in-out;
 }
 
