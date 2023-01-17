@@ -21,10 +21,11 @@
   border-radius: 50%;
   height: 80px;
   width: 80px;
+  margin: 0px 0px 0px 10px;
 }
 
 .arrow-button-left:hover {
-  background-color: rgba(174, 165, 165, 0.3);
+  background-color: rgba(174, 165, 165, 0.5);
 }
 
 .arrow-button-right {
@@ -32,11 +33,11 @@
   border-radius: 50%;
   height: 80px;
   width: 80px;
-  right: 10px;
+  margin: 0px 10px 0px 0px;
 }
 
 .arrow-button-right:hover {
-  background-color: rgba(174, 165, 165, 0.3);
+  background-color: rgba(174, 165, 165, 0.5);
 }
 
 .arrow-image-right {
@@ -49,4 +50,14 @@
   height: 40px;
   padding-bottom: 30px;
   padding-left: 18px;
+}
+
+@media screen and (max-width: 600px) {
+  .arrow-buttons {
+    width: 40%;
+    margin-right: 0px;
+  }
+  .slider-image {
+    width: 100%;
+  }
 }

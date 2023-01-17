@@ -1,11 +1,13 @@
 .projects-container {
   display: grid;
-  grid-template-columns: 2fr 12fr;
+  grid-template-columns: 5fr 20fr;
+  height: 100vh;
 }
 
 .projects-images {
-  width: 50%;
-  height: 50%;
+  height: 40%;
+  width: 80%;
+  padding: 50px 0px 40px 50px;
 }
 
 @media screen and (max-width: 600px) {
@@ -27,10 +29,5 @@
   .image-slider-container {
     width: 100%;
     margin-right: 0;
-  }
-
-  .arrow-buttons {
-    width: 40%;
-    margin-right: 0px;
   }
 }
