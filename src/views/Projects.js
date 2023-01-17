@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <>
       <div className="projects-container">
-        <div></div>
+        <div> Nav</div>
         <div className="projects-images">
           {" "}
           <ImageSlider />

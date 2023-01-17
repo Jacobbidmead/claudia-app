@@ -1,10 +1,36 @@
 .projects-container {
-  height: 100vh;
   display: grid;
-  grid-template-columns: 2fr 8fr;
+  grid-template-columns: 2fr 12fr;
 }
 
 .projects-images {
   width: 50%;
   height: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .projects-images {
+    width: 35%;
+    height: 35%;
+  }
+
+  .projects-container {
+    width: 100%;
+  }
+
+  .image-slider-container {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .arrow-buttons {
+    width: 40%;
+    margin-right: 0px;
+  }
 }

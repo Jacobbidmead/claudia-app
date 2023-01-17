@@ -38,7 +38,7 @@ body {
 
 .name {
   font-family: PolySans;
-  font-size: 200px;
+  font-size: 150px;
   padding-bottom: 1400px;
   background-color: #193718;
   color: #ff8bff;
@@ -76,9 +76,13 @@ body {
 
 /* media */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 620px) {
+  html {
+    width: 100%;
+  }
+
   .name {
-    font-size: 70px;
+    font-size: 90px;
   }
 
   .main-container {
