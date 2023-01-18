@@ -23,6 +23,19 @@ body {
   height: 100vh;
 }
 
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.word {
+  font-size: clamp(2rem, 7vw, 10rem);
+  font-family: "Rubik", sans-serif;
+  margin: 0rem;
+  text-transform: uppercase;
+  transition: opacity 250ms ease;
+}
+
 .home-image {
   width: 45%;
   margin-top: 190px;
@@ -37,12 +50,20 @@ body {
 }
 
 .name {
-  font-family: PolySans;
-  font-size: 150px;
-  padding-bottom: 1400px;
-  background-color: #193718;
-  color: #ff8bff;
-  animation: fadein 0.3s ease-in-out;
+  padding: 20px 50px 200px 20px;
+  background-color: black;
+  color: white;
+}
+
+.contacts-container {
+  font-family: "Rubik", sans-serif;
+  padding: 20px 50px 2000px 20px;
+  background-color: black;
+  color: white;
+}
+
+.contact {
+  color: white;
 }
 
 .sidebar {

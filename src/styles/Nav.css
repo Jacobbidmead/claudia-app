@@ -22,20 +22,12 @@
 }
 
 #text:has(.highlight:hover) .link:not(.highlight:hover) {
-  opacity: 0.2;
+  opacity: 0.4;
 }
 
 .line {
   display: flex;
   justify-content: space-between;
-}
-
-.word {
-  font-size: clamp(2rem, 8vw, 10rem);
-  font-family: "Rubik", sans-serif;
-  margin: 0rem;
-  text-transform: uppercase;
-  transition: opacity 250ms ease;
 }
 
 a {
