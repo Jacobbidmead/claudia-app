@@ -7,11 +7,7 @@ const Projects = () => {
   return (
     <>
       <div className="projects-container">
-        <div> Nav</div>
-        <div className="projects-images">
-          {" "}
-          <ImageSlider />
-        </div>
+        <div> Nav</div> <ImageSlider />
       </div>
       <MainNav />
     </>
