@@ -9,16 +9,11 @@
   font-family: "Rubik", sans-serif;
   margin: 0rem;
   text-transform: uppercase;
-  transition: opacity 500ms ease;
 }
 
 .links {
   background-color: black;
   color: white;
-}
-
-.link:hover {
-  position: relative;
 }
 
 #text:has(.highlight:hover) .link:not(.highlight:hover) {
@@ -28,6 +23,14 @@
 .line {
   display: flex;
   justify-content: space-between;
+  z-index: 1;
+}
+
+.home-bg-image {
+  background-image: url("/public/images/test.jpeg");
+  height: 200px;
+  position: absolute;
+  margin-bottom: 30px;
 }
 
 a {

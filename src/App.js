@@ -10,7 +10,7 @@ class App extends React.Component {
   };
 
   listenScrollEvent = (e) => {
-    let backgroundBreakpoints = [0, 50, 400];
+    let backgroundBreakpoints = [0, 400, 600];
 
     if (
       window.scrollY > backgroundBreakpoints[0] &&
@@ -54,14 +54,12 @@ class App extends React.Component {
                   </div>
 
                   <div class="line">
-                    <p class="word">CLAUDIA@HOTMAIL.COM</p>
+                    <p class="word">MORE INFORMATION HERE</p>
                   </div>
                 </div>
               </span>
             </motion.div>
             <div className="contacts-container">
-              <div></div>
-
               <div className="contact">
                 <a
                   href="https://www.instagram.com/camomilehaze/?hl=en"
@@ -87,7 +85,7 @@ class App extends React.Component {
                   }}
                 >
                   {" "}
-                  GitHub
+                  Link
                 </a>
                 <div></div>
               </div>

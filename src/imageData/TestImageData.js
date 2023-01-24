@@ -4,6 +4,7 @@ let TestImageData = [
   "images/test3.jpeg",
   "images/test4.jpeg",
   "images/test6.jpeg",
+  "images/paper.jpeg",
 ];
 
 export default TestImageData;

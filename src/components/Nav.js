@@ -7,6 +7,7 @@ const Nav = () => {
     <>
       <nav className="open-nav">
         <div id="text">
+          <div className="home-bg-image"></div>
           <div class="line">
             <Link to="/about" className="link highlight">
               About
@@ -28,7 +29,7 @@ const Nav = () => {
               Publications
             </Link>
             <Link to="/" className="link highlight">
-              Home
+              home
             </Link>
           </div>
 

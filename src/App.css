@@ -28,6 +28,10 @@ body {
   justify-content: space-between;
 }
 
+#text {
+  padding: 50px;
+}
+
 .word {
   font-size: clamp(2rem, 7vw, 10rem);
   font-family: "Rubik", sans-serif;
@@ -50,20 +54,26 @@ body {
 }
 
 .name {
-  padding: 20px 50px 200px 20px;
+  padding: 20px 50px 180px 20px;
   background-color: black;
   color: white;
+  border-bottom: 1px solid white;
 }
 
 .contacts-container {
   font-family: "Rubik", sans-serif;
-  padding: 20px 50px 2000px 20px;
+  padding: 0px 50px 2000px 20px;
   background-color: black;
   color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* background-image: url("/public/images/test.jpeg"); */
 }
 
 .contact {
   color: white;
+  height: 200px;
+  margin-top: 20px;
 }
 
 .sidebar {

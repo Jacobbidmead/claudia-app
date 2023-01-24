@@ -31,10 +31,11 @@ class PhotoGallery extends React.Component {
             Europe
           </span>
         </div>
+
         <div className="container">
           <div className="photo-container">
             {this.state.allImages.map((el, i) => (
-              <div key={i} onMouseEnter={(e) => this.changePic(el)}>
+              <div key={i} onClick={(e) => this.changePic(el)}>
                 <img src={el} alt="" className="photo" />
               </div>
             ))}
