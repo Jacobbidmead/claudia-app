@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import MainNav from "./components/MainNav";
 import Nav from "./components/Nav";
 import { motion } from "framer-motion";
 
@@ -42,19 +41,6 @@ class App extends React.Component {
                   <div class="line">
                     <p class="word">CLAUDIA</p>
                     <p class="word">CANTARINI</p>
-                  </div>
-
-                  <div class="line">
-                    <p class="word">PHOTOGRAPHER</p>
-                    <p class="word">&</p>
-                  </div>
-
-                  <div class="line">
-                    <p class="word"></p>
-                  </div>
-
-                  <div class="line">
-                    <p class="word">MORE INFORMATION HERE</p>
                   </div>
                 </div>
               </span>

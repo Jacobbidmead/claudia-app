@@ -17,21 +17,6 @@ class PhotoGallery extends React.Component {
   render() {
     return (
       <>
-        <div className="photo-nav">
-          <span onClick={(e) => this.changeToAsia(e)} className="change-photos">
-            Far East
-          </span>
-          <span onClick={(e) => this.changeToSa(e)} className="change-photos">
-            Americas
-          </span>
-          <span
-            onClick={(e) => this.changeToEurope(e)}
-            className="change-photos"
-          >
-            Europe
-          </span>
-        </div>
-
         <div className="container">
           <div className="photo-container">
             {this.state.allImages.map((el, i) => (
