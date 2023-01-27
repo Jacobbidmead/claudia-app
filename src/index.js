@@ -8,6 +8,7 @@ import About from "./views/About";
 import Commissons from "./views/Commissions";
 import Projects from "./views/Projects";
 import Publications from "./views/Publications";
+import Work from "./views/Work";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "/Publications",
     element: <Publications />,
+  },
+  {
+    path: "/Work",
+    element: <Work />,
   },
 ]);
 

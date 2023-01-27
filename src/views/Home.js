@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const About = () => {
+const Home = () => {
   return (
     <>
       <div className="home-container">
@@ -17,7 +17,9 @@ const About = () => {
             </Link>
           </span>
         </div>
-        <div className="home-image-container"></div>
+        <div className="home-image-container">
+          <img src="images/home.jpeg" alt="" className="home-image" />
+        </div>
         <div className="links">
           <span className="bottom-links">
             <Link to="/about" style={{ color: "white" }}>
@@ -31,4 +33,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Home;
