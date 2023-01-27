@@ -7,8 +7,8 @@ const Home = () => {
       <div className="home-container">
         <div className="links">
           <span className="top-links">
-            <Link to="/about" style={{ color: "white" }}>
-              Claudia Cantarini
+            <Link to="/" style={{ color: "white" }}>
+              CLAUDIA CANTARINI
             </Link>
           </span>
           <span className="top-links">
