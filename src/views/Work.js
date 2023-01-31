@@ -11,17 +11,20 @@ const Work = () => {
         {/* empty div */}
         <div className="link-container">
           <Link to="/Projects" className="work-nav end">
-            <img src="images/cat.jpeg" alt="" />
+            <img src="images/cat.jpeg" alt="" className="image" />
+            <span className="hidden-word projects-word">Projects</span>
           </Link>
         </div>
         <div className="link-container">
           <Link to="/Commissions" className="work-nav middle">
-            <img src="images/cat.jpeg" alt="" />
+            <img src="images/cat.jpeg" alt="" className="image" />
+            <span className="hidden-word commissions-word">Commissions</span>
           </Link>
         </div>
         <div className="link-container">
           <Link to="/Publications" className="work-nav end">
-            <img src="images/cat.jpeg" alt="" />
+            <img src="images/cat.jpeg" alt="" className="image" />
+            <span className="hidden-word publications-word">Publications</span>
           </Link>
         </div>
 

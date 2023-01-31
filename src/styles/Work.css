@@ -22,3 +22,46 @@
 .end {
   padding-top: 200px;
 }
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.hidden-word {
+  transition: 0.5s ease;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.projects-word {
+  position: absolute;
+  top: 50%;
+  left: 23%;
+}
+
+.commissions-word {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+}
+
+.publications-word {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+}
+
+.work-nav:hover .image {
+  opacity: 0.3;
+}
+
+.work-nav:hover .hidden-word {
+  opacity: 1;
+}
