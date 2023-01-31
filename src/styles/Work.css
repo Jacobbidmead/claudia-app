@@ -1,6 +1,7 @@
 .work-container {
   display: grid;
   grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+  background-color: black;
 }
 
 .link-container {
@@ -13,15 +14,11 @@
   justify-content: center;
 }
 
-.first {
-  padding-top: 200px;
-}
-
 .middle {
   display: flex;
-  padding-top: 350px;
+  padding-top: 300px;
 }
 
 .end {
-  padding-top: 70px;
+  padding-top: 200px;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Work.css";
+import { Link } from "react-router-dom";
 
 const Work = () => {
   return (
@@ -9,23 +10,22 @@ const Work = () => {
         <div></div>
         {/* empty div */}
         <div className="link-container">
-          <div className="work-nav first">
+          <Link to="/Projects" className="work-nav end">
             <img src="images/cat.jpeg" alt="" />
-          </div>
+          </Link>
         </div>
         <div className="link-container">
-          <div className="work-nav middle">
+          <Link to="/Commissions" className="work-nav middle">
             <img src="images/cat.jpeg" alt="" />
-          </div>
+          </Link>
         </div>
         <div className="link-container">
-          <div className="work-nav end">
+          <Link to="/Publications" className="work-nav end">
             <img src="images/cat.jpeg" alt="" />
-          </div>
+          </Link>
         </div>
-        {/* empty div */}
-        <div></div>
-        {/* empty div */}
+
+        <div style={{ color: "white" }}>Home</div>
       </div>
     </>
   );

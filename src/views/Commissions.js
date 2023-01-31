@@ -1,11 +1,11 @@
 import React from "react";
 
-const Commissons = () => {
+const Commissions = () => {
   return (
     <>
-      <div style={{ fontSize: "200px" }}>Commissions</div>
+      <div>Commissions</div>
     </>
   );
 };
 
-export default Commissons;
+export default Commissions;
