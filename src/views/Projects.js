@@ -1,5 +1,4 @@
 import React from "react";
-import MainNav from "../components/MainNav";
 import "../styles/Projects.css";
 
 const Projects = () => {
@@ -8,7 +7,6 @@ const Projects = () => {
       <div className="projects-container">
         <div> Nav</div>
       </div>
-      <MainNav />
     </>
   );
 };
