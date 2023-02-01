@@ -46,13 +46,18 @@ body {
   color: white;
 }
 
-.links:hover {
+.bottom-links:hover {
   opacity: 0.5;
   transition: 0.2s ease;
 }
 
 .top-links {
   padding: 15px;
+}
+
+.top-links:hover {
+  opacity: 0.5;
+  transition: 0.2s ease;
 }
 
 .bottom-links {

@@ -6,21 +6,24 @@
 
 .link-container {
   height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 .work-nav {
   display: flex;
   height: 50%;
-  justify-content: center;
 }
 
 .middle {
   display: flex;
-  padding-top: 300px;
+  margin-top: auto;
+  padding-bottom: 120px;
 }
 
 .end {
-  padding-top: 200px;
+  margin-bottom: auto;
+  padding-top: 100px;
 }
 
 .image {
@@ -28,6 +31,7 @@
   display: block;
   transition: 0.5s ease;
   backface-visibility: hidden;
+  animation: fadein 1s ease-in-out;
 }
 
 .hidden-word {
@@ -42,7 +46,7 @@
 
 .projects-word {
   position: absolute;
-  top: 50%;
+  top: 37%;
   left: 23%;
 }
 
@@ -54,7 +58,7 @@
 
 .publications-word {
   position: absolute;
-  top: 50%;
+  top: 37%;
   right: 10%;
 }
 
@@ -64,6 +68,20 @@
 
 .work-nav:hover .hidden-word {
   opacity: 1;
+}
+
+.home-button {
+  padding: 30px;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 620px) {
