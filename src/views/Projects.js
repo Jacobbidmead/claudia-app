@@ -4,9 +4,7 @@ import "../styles/Projects.css";
 const Projects = () => {
   return (
     <>
-      <div className="projects-container">
-        <div> Nav</div>
-      </div>
+      <div className="projects-container"></div>
     </>
   );
 };

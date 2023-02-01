@@ -3,18 +3,6 @@ import "../styles/Work.css";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-const textAnimate = {
-  offscreen: { y: 100 },
-  onscreen: {
-    y: 0,
-    transition: {
-      type: "tween",
-      bounce: 0.5,
-      duration: 1,
-    },
-  },
-};
-
 const Work = () => {
   return (
     <>
@@ -26,12 +14,19 @@ const Work = () => {
           <Link to="/Projects" className="work-nav end">
             <motion.img
               whileHover={{ scale: 1.1 }}
-              transition={{ duration: 0.1 }}
+              transition={{
+                type: "tween",
+                stiffness: 400,
+                damping: 10,
+                duration: 0.1,
+              }}
               src="images/cat.jpeg"
               alt=""
               className="image"
             />
-            <span className="hidden-word projects-word">Projects</span>
+            <motion.span className="hidden-word projects-word">
+              Projects
+            </motion.span>
           </Link>
         </div>
         <div className="link-container">

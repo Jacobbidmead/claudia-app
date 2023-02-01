@@ -46,19 +46,19 @@
 
 .projects-word {
   position: absolute;
-  top: 37%;
+  top: 57%;
   left: 23%;
 }
 
 .commissions-word {
   position: absolute;
-  top: 60%;
+  top: 80%;
   left: 50%;
 }
 
 .publications-word {
   position: absolute;
-  top: 37%;
+  top: 57%;
   right: 10%;
 }
 
@@ -99,34 +99,56 @@
   }
 }
 
-/* @media screen and (max-width: 980px) {
-  .work-nav {
+/* media */
+
+@media screen and (max-width: 1000px) {
+  .image {
     width: 100%;
-  }
-
-  .image {
-    width: 90%;
-    height: 100%;
-  }
-} */
-
-@media screen and (max-width: 800px) {
-  .image {
-    width: 70%;
-    height: 190px;
+    height: 280px;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 835px) {
   .image {
-    width: 67%;
-    height: 180px;
+    width: 100%;
+    height: 210px;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 630px) {
   .image {
-    width: 63%;
-    height: 160px;
+    width: 100%;
+    height: 200px;
+  }
+  .home-button {
+    font-size: 10px;
+    padding: 10px 0px 0px 0px;
+  }
+
+  .work-nav {
+    padding-top: 250px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .image {
+    width: 100%;
+    height: 140px;
+    padding-right: 20px;
+  }
+
+  .work-nav {
+    padding-top: 250px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .image {
+    width: 100%;
+    height: 131px;
+  }
+
+  .work-nav {
+    padding-top: 250px;
   }
 }
