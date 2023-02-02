@@ -21,6 +21,6 @@
   object-fit: cover;
 }
 
-.swiper-button-prev {
-  display: none;
+.swiper-button-next {
+  color: red;
 }

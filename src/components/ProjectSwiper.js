@@ -1,7 +1,7 @@
 import React from "react";
 import TestImageData from "../imageData/TestImageData";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+
 import "swiper/css/navigation";
 
 import "../styles/Swiper.css";
@@ -11,14 +11,7 @@ export default function ProjectSwiper() {
   return (
     <>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        {[
-          "/images/test.jpeg",
-          "images/test2.jpeg",
-          "images/test3.jpeg",
-          "images/test4.jpeg",
-          "images/test6.jpeg",
-          "images/paper.jpeg",
-        ].map((i, el) => {
+        {TestImageData.map((i, el) => {
           return (
             <SwiperSlide key={i}>
               <img src={i} alt="" />

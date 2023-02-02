@@ -10,8 +10,8 @@ class Projects extends React.Component {
       <>
         <div className="projects-container">
           <div className="content-nav">
-            <div className="content-links">link1</div>
-            <div className="content-links">link2</div>
+            <div className="content-links">Hidden</div>
+            <div className="content-links">All that glitters is not gold</div>
             <div className="content-links">link3</div>
             <div className="content-links">link3</div>
           </div>

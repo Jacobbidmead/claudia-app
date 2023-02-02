@@ -8,7 +8,9 @@ const Work = () => {
     <>
       <div className="work-container">
         {/* empty div */}
-        <div></div>
+        <Link className="home-button" to="/" style={{ color: "white" }}>
+          CLAUDIA CANTARINI
+        </Link>
         {/* empty div */}
         <div className="link-container">
           <Link to="/Projects" className="work-nav end">
@@ -20,7 +22,7 @@ const Work = () => {
                 damping: 10,
                 duration: 0.1,
               }}
-              src="images/cat.jpeg"
+              src="images/sophie.jpeg"
               alt=""
               className="image"
             />
@@ -32,7 +34,7 @@ const Work = () => {
         <div className="link-container">
           <Link to="/Commissions" className="work-nav middle">
             <motion.img
-              src="images/cat.jpeg"
+              src="images/pearl.jpeg"
               alt=""
               className="image"
               whileHover={{ scale: 1.1 }}
@@ -44,7 +46,7 @@ const Work = () => {
         <div className="link-container">
           <Link to="/Publications" className="work-nav end">
             <motion.img
-              src="images/cat.jpeg"
+              src="images/body.jpeg"
               alt=""
               className="image"
               whileHover={{ scale: 1.1 }}
@@ -53,9 +55,7 @@ const Work = () => {
             <span className="hidden-word publications-word">Publications</span>
           </Link>
         </div>
-        <Link className="home-button" to="/" style={{ color: "white" }}>
-          Home
-        </Link>
+        <div></div>
       </div>
     </>
   );
