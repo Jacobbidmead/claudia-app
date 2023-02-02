@@ -1,51 +1,5 @@
 .projects-container {
   display: grid;
-  grid-template-columns: 5fr 20fr;
+  grid-template-columns: 1fr 1fr 1fr;
   height: 100vh;
-}
-
-.content-nav {
-  display: flex;
-  flex-direction: column;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-left: 40px;
-}
-
-.content-links {
-  padding: 20px;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.content-image {
-  display: grid;
-  grid-template-rows: 10fr 3fr;
-}
-
-.info-link {
-  text-align: center;
-}
-
-.content-image {
-  display: flex;
-  justify-content: center;
-}
-
-.large-photo-container {
-  padding: 20px;
-  width: 900px;
-}
-
-.main-photo {
-  width: 100%;
-  height: 550px;
-  background-size: contain;
-  background-image: cover;
-  margin-top: 17px;
-  animation: fadein 1.5s;
-  border-radius: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 40px;
 }

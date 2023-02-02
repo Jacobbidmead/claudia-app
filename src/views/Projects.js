@@ -1,33 +1,65 @@
+import { render } from "@testing-library/react";
 import React from "react";
-import ProjectSwiper from "../components/ProjectSwiper";
 import "../styles/Projects.css";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
-class Projects extends React.Component {
-  state = {};
-
-  render() {
-    return (
-      <>
-        <div className="projects-container">
-          <div className="content-nav">
-            <div className="content-links">Hidden</div>
-            <div className="content-links">All that glitters is not gold</div>
-            <div className="content-links">link3</div>
-            <div className="content-links">link3</div>
-          </div>
-          <div className="content-image">
-            <div className="large-photo-container">
-              <ProjectSwiper />
-            </div>
-          </div>
-          {/* empty div */}
-          <div></div>
-          {/* empty div */}
-          <div className="info-link">More Info</div>
+const Projects = () => {
+  return (
+    <>
+      <div className="work-container">
+        {/* empty div */}
+        <Link className="home-button" to="/" style={{ color: "white" }}>
+          CLAUDIA CANTARINI
+        </Link>
+        {/* empty div */}
+        <div className="link-container">
+          <Link to="/Projects" className="work-nav end">
+            <motion.img
+              whileHover={{ scale: 1.1 }}
+              transition={{
+                type: "tween",
+                stiffness: 400,
+                damping: 10,
+                duration: 0.1,
+              }}
+              src="images/sophie.jpeg"
+              alt=""
+              className="image"
+            />
+            <motion.span className="hidden-word projects-word">
+              Projects
+            </motion.span>
+          </Link>
         </div>
-      </>
-    );
-  }
-}
+        <div className="link-container">
+          <Link to="/Commissions" className="work-nav middle">
+            <motion.img
+              src="images/pearl.jpeg"
+              alt=""
+              className="image"
+              whileHover={{ scale: 1.1 }}
+              transition={{ duration: 0.1 }}
+            />
+            <span className="hidden-word commissions-word">Commissions</span>
+          </Link>
+        </div>
+        <div className="link-container">
+          <Link to="/Publications" className="work-nav end">
+            <motion.img
+              src="images/body.jpeg"
+              alt=""
+              className="image"
+              whileHover={{ scale: 1.1 }}
+              transition={{ duration: 0.1 }}
+            />
+            <span className="hidden-word publications-word">Publications</span>
+          </Link>
+        </div>
+        <div></div>
+      </div>
+    </>
+  );
+};
 
 export default Projects;
