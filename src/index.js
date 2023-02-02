@@ -9,6 +9,7 @@ import Commissons from "./views/Commissions";
 import Projects from "./views/Projects";
 import Publications from "./views/Publications";
 import Work from "./views/Work";
+import "swiper/css/bundle";
 
 const router = createBrowserRouter([
   {

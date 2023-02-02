@@ -1,7 +1,10 @@
 import React from "react";
+import ProjectSwiper from "../components/ProjectSwiper";
 import "../styles/Projects.css";
 
 class Projects extends React.Component {
+  state = {};
+
   render() {
     return (
       <>
@@ -14,7 +17,7 @@ class Projects extends React.Component {
           </div>
           <div className="content-image">
             <div className="large-photo-container">
-              <img src="images/test.jpeg" alt="" className="main-photo" />
+              <ProjectSwiper />
             </div>
           </div>
           {/* empty div */}
