@@ -1,0 +1,35 @@
+.about-main-container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 10fr 1fr;
+  background-color: rgb(234, 174, 242);
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 3fr 7fr 3fr;
+}
+
+.main-about {
+  font-size: 22px;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.about-image-container {
+  width: 100%;
+}
+
+.about-image {
+  width: 40%;
+  padding-bottom: 40px;
+}
+
+.about-image-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-intro {
+  padding-left: 100px;
+}
