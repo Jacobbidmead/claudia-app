@@ -43,18 +43,7 @@ const Work = () => {
             <span className="hidden-word commissions-word">Commissions</span>
           </Link>
         </div>
-        <div className="link-container">
-          <Link to="/Publications" className="work-nav end">
-            <motion.img
-              src="images/body.jpeg"
-              alt=""
-              className="image"
-              whileHover={{ scale: 1.1 }}
-              transition={{ duration: 0.1 }}
-            />
-            <span className="hidden-word publications-word">Publications</span>
-          </Link>
-        </div>
+
         <div></div>
       </div>
     </>

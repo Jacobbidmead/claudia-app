@@ -11,10 +11,10 @@ export default function ProjectSwiper() {
   return (
     <>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        {TestImageData.map((i, el) => {
+        {TestImageData.map((el, i) => {
           return (
             <SwiperSlide key={i}>
-              <img src={i} alt="" />
+              <img src={el} alt="" />
             </SwiperSlide>
           );
         })}
