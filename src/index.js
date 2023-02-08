@@ -5,10 +5,10 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from "./views/About";
-import Commissons from "./views/Commissions";
-import Projects from "./views/Projects";
-import Publications from "./views/Publications";
 import Work from "./views/Work";
+import ATG from "./views/Projects/ATG.js";
+import Girls from "./views/Projects/Girls.js";
+import Hidden from "./views/Projects/Hidden.js";
 import "swiper/css/bundle";
 
 const router = createBrowserRouter([
@@ -21,20 +21,20 @@ const router = createBrowserRouter([
     element: <About />,
   },
   {
-    path: "/Commissions",
-    element: <Commissons />,
-  },
-  {
-    path: "/Projects",
-    element: <Projects />,
-  },
-  {
-    path: "/Publications",
-    element: <Publications />,
-  },
-  {
     path: "/Work",
     element: <Work />,
+  },
+  {
+    path: "/ATG",
+    element: <ATG />,
+  },
+  {
+    path: "/Girls",
+    element: <Girls />,
+  },
+  {
+    path: "/Hidden",
+    element: <Hidden />,
   },
 ]);
 
