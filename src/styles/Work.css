@@ -16,3 +16,19 @@
   display: flex;
   justify-content: center;
 }
+
+.hidden-word {
+  transition: 0.5s ease;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.projects-word {
+  position: absolute;
+  top: 57%;
+  left: 23%;
+}
