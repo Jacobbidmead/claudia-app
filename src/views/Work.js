@@ -1,16 +1,19 @@
 import React from "react";
 import "../styles/Work.css";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
 
 const Work = () => {
   return (
     <>
       <div className="work-container">
         <span>Claudia Cantarini</span>
-        <div className="image-links-container">
-          <img src="images/body.jpeg" alt="" className="image-links" />
-        </div>
+        <Link to="/Hidden" className="image-links-container">
+          <img
+            src="images/Hidden/Hidden4.jpeg"
+            alt=""
+            className="image-links"
+          />
+        </Link>
         <div className="image-links-container">
           <img src="images/fran.jpeg" alt="" className="image-links" />
         </div>
