@@ -13,9 +13,12 @@
   align-items: center;
 }
 
+.swiper-container {
+  height: 100vh;
+}
 .swiper-slide-img {
   object-fit: cover;
-  width: 40%;
+  width: 30%;
 }
 
 .swiper-button-next {

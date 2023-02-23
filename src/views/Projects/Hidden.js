@@ -16,16 +16,22 @@ function Hidden() {
     <>
       {showInfo ? (
         <>
-          <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-            {HiddenImg.map((el, i) => {
-              return (
-                <SwiperSlide key={i}>
-                  <img src={el} alt="" className="swiper-slide-img" />
-                </SwiperSlide>
-              );
-            })}
-          </Swiper>
-          <div onClick={handleShowInfo}>More info</div>{" "}
+          <div className="swiper-container">
+            <Swiper
+              navigation={true}
+              modules={[Navigation]}
+              className="mySwiper"
+            >
+              {HiddenImg.map((el, i) => {
+                return (
+                  <SwiperSlide key={i}>
+                    <img src={el} alt="" className="swiper-slide-img" />
+                  </SwiperSlide>
+                );
+              })}
+            </Swiper>
+            <div onClick={handleShowInfo}>More info</div>{" "}
+          </div>
         </>
       ) : (
         <div onClick={handleShowInfo}>info here</div>

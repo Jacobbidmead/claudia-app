@@ -14,9 +14,14 @@ const Work = () => {
             className="image-links"
           />
         </Link>
-        <div className="image-links-container">
-          <img src="images/fran.jpeg" alt="" className="image-links" />
-        </div>
+        <Link to="/ATG" className="image-links-container">
+          <img
+            src="images/Glitters/Glitters3.jpeg"
+            alt=""
+            className="image-links"
+            style={{ height: "65%", marginTop: "60px" }}
+          />
+        </Link>
         <div className="image-links-container">
           <img src="images/pearl.jpeg" alt="" className="image-links" />
         </div>
