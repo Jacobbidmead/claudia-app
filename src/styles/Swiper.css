@@ -21,6 +21,10 @@
   width: 30%;
 }
 
+.glitters-swiper-img {
+  width: 35%;
+}
+
 .swiper-button-next {
   color: rgba(0, 0, 0, 0.5) !important;
 }
