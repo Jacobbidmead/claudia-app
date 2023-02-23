@@ -12,7 +12,7 @@ export default function Hidden() {
         {HiddenImg.map((el, i) => {
           return (
             <SwiperSlide key={i}>
-              <img src={el} alt="" />
+              <img src={el} alt="" className="swiper-slide-img" />
             </SwiperSlide>
           );
         })}

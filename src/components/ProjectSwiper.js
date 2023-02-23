@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/navigation";
 import "../styles/Swiper.css";
 import { Navigation } from "swiper";
+import "swiper/css";
 
 export default function ProjectSwiper() {
   return (
