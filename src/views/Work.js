@@ -22,9 +22,9 @@ const Work = () => {
             style={{ height: "65%", marginTop: "60px" }}
           />
         </Link>
-        <div className="image-links-container">
-          <img src="images/pearl.jpeg" alt="" className="image-links" />
-        </div>
+        <Link to="/Girls" className="image-links-container">
+          <img src="images/Girls/Girl1.jpg" alt="" className="image-links" />
+        </Link>
         <div className="image-links-container">
           <img src="images/sophie.jpeg" alt="" className="image-links" />
         </div>

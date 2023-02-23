@@ -25,6 +25,10 @@
   width: 35%;
 }
 
+.girls-swiper-img {
+  width: 80%;
+}
+
 .swiper-button-next {
   color: rgba(0, 0, 0, 0.5) !important;
 }

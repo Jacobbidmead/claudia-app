@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/navigation";
 import "../../styles/Swiper.css";
 import { Navigation } from "swiper";
+import { Link } from "react-router-dom";
 
 function Hidden() {
   const [showInfo, setShowInfo] = useState(true);
@@ -16,6 +17,7 @@ function Hidden() {
     <>
       {showInfo ? (
         <>
+          <Link to="/Work">Back</Link>
           <div className="swiper-container">
             <Swiper
               navigation={true}
