@@ -44,17 +44,71 @@
   margin-bottom: 60px;
 }
 
-@media screen and (max-width: 620px) {
-  html {
-    width: 100%;
+/* media */
+
+@media screen and (max-width: 525px) {
+  .about-intro {
+    font-size: 15px;
+  }
+
+  .about-works {
+    font-size: 15px;
   }
 }
 
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 619px) {
   .about-image {
-    padding-top: 40px;
-    width: 50%;
-    height: 60%;
+    margin-bottom: 25px;
+    border-radius: 30px;
+    padding: 0px;
+    margin-top: 10px;
+  }
+
+  .about-intro {
+    text-align: center;
+    padding: 0px;
+
+    letter-spacing: 0;
+  }
+
+  .about-works {
+    letter-spacing: 0;
+    text-align: center;
+  }
+  .about-bot-links {
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 1269px) {
+  .about-image {
+    width: 80%;
+    padding-top: 0;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 1269px) {
+  .about-intro {
+    text-align: center;
+    padding: 0px;
+    letter-spacing: 0;
+  }
+
+  .about-works {
+    letter-spacing: 0;
+    text-align: center;
+  }
+  .about-bot-links {
+    margin-bottom: 5px;
+  }
+
+  .about-image {
+    width: 70%;
+    padding-top: 0;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -67,59 +121,5 @@
 
   .main-about {
     margin: 0;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .about-image {
-    width: 100%;
-    height: 60%;
-    margin-bottom: 25px;
-    border-radius: 30px;
-    padding: 0px;
-    margin-top: 10px;
-  }
-
-  .about-intro {
-    text-align: center;
-    padding: 0px;
-    font-size: 12px;
-    letter-spacing: 0;
-  }
-
-  .about-works {
-    font-size: 11px;
-    letter-spacing: 0;
-    text-align: center;
-  }
-  .about-bot-links {
-    margin-bottom: 5px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .about-image {
-    width: 100%;
-    height: 50%;
-    margin-bottom: 25px;
-    border-radius: 30px;
-    padding: 0px;
-    margin-top: 10px;
-  }
-
-  .about-intro {
-    text-align: center;
-    padding: 0px;
-    font-size: 12px;
-    letter-spacing: 0;
-  }
-
-  .about-works {
-    font-size: 11px;
-    letter-spacing: 0;
-    text-align: center;
-  }
-  .about-bot-links {
-    margin-bottom: 5px;
   }
 }
