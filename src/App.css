@@ -61,7 +61,8 @@ body {
 }
 
 .bottom-links {
-  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .home-image {

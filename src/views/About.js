@@ -25,7 +25,7 @@ const About = () => {
               <img src="images/Claudia.jpeg" alt="" className="about-image" />{" "}
               <div className="about-intro">
                 {" "}
-                Claudia is a photographer born in Italy and raised in London,
+                Claudia is a photographer; born in Italy and raised in London,
                 working with analog and digital photography.{" "}
                 <p>
                   Claudia’s work is constructed, often based around women and
@@ -47,11 +47,11 @@ const About = () => {
           <div></div>
           {/* empty div */}
         </div>
-        <div className="links">
-          <span className="bottom-links">
+        <div className="links about-bot-links">
+          <span className="bottom-links ">
             <Link to="/about">About</Link>
           </span>
-          <span style={{ color: "black" }} className="bottom-links">
+          <span style={{ color: "black" }} className="bottom-links ">
             Instagram
           </span>
         </div>
