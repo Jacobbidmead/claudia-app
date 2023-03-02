@@ -20,8 +20,7 @@ const Work = () => {
           <img
             src="images/Glitters/Glitters3.jpeg"
             alt=""
-            className="image-links"
-            style={{ height: "65%", marginTop: "60px" }}
+            className="image-links glitters"
           />
         </Link>
         <Link to="/Girls" className="image-links-container">
@@ -31,18 +30,6 @@ const Work = () => {
           <img src="images/sophie.jpeg" alt="" className="image-links" />
         </div>
 
-        <div className="image-links-container">
-          <img src="images/body.jpeg" alt="" className="image-links" />
-        </div>
-        <div className="image-links-container">
-          <img src="images/fran.jpeg" alt="" className="image-links" />
-        </div>
-        <div className="image-links-container">
-          <img src="images/pearl.jpeg" alt="" className="image-links" />
-        </div>
-        <div className="image-links-container">
-          <img src="images/sophie.jpeg" alt="" className="image-links" />
-        </div>
         <div className="image-links-container">
           <img src="images/body.jpeg" alt="" className="image-links" />
         </div>

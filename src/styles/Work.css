@@ -35,3 +35,43 @@
 .return-home {
   font-size: 30px;
 }
+
+.glitters {
+  height: 65%;
+  margin-top: 40px;
+}
+
+/* media */
+
+@media screen and (max-width: 1000px) {
+  .work-container {
+    column-gap: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 20px;
+  }
+
+  .image-links-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image-links {
+    /* width: 80%;
+    height: 100%; */
+    margin: 20px;
+    padding: 0;
+  }
+
+  .return-home {
+    font-size: 22px;
+    width: 0;
+    margin-left: 32px;
+  }
+
+  .glitters {
+    margin-top: 0px;
+  }
+}
