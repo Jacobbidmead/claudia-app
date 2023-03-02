@@ -17,7 +17,14 @@ function Hidden() {
     <>
       {showInfo ? (
         <>
-          <Link to="/Work">Back</Link>
+          <div className="swiper-links">
+            <Link to="/Work">
+              <div className="back-to-work">Back</div>
+            </Link>
+            <div onClick={handleShowInfo} className="more-info">
+              More info
+            </div>{" "}
+          </div>
           <div className="swiper-container">
             <Swiper
               navigation={true}
@@ -32,11 +39,10 @@ function Hidden() {
                 );
               })}
             </Swiper>
-            <div onClick={handleShowInfo}>More info</div>{" "}
           </div>
         </>
       ) : (
-        <div onClick={handleShowInfo}>info here</div>
+        <div onClick={handleShowInfo}>Quit</div>
       )}
     </>
   );

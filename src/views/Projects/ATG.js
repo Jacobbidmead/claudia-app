@@ -32,7 +32,9 @@ function ATG() {
                 );
               })}
             </Swiper>
-            <div onClick={handleShowInfo}>More info</div>{" "}
+            <div onClick={handleShowInfo} className="more-info">
+              More info
+            </div>{" "}
           </div>
         </>
       ) : (

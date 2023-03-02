@@ -6,7 +6,9 @@ const Work = () => {
   return (
     <>
       <div className="work-container">
-        <span>Claudia Cantarini</span>
+        <Link to="/">
+          <span className="return-home">Claudia Cantarini</span>
+        </Link>
         <Link to="/Hidden" className="image-links-container">
           <img
             src="images/Hidden/Hidden4.jpeg"
