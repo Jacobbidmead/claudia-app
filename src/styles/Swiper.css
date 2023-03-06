@@ -57,10 +57,16 @@
   .swiper-slide-img {
     width: 40%;
   }
+  .glitters-swiper-img {
+    width: 40%;
+  }
 }
 
 @media screen and (max-width: 610px) {
   .swiper-slide-img {
+    width: 70%;
+  }
+  .glitters-swiper-img {
     width: 70%;
   }
 }

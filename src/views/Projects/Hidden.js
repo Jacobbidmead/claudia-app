@@ -42,7 +42,14 @@ function Hidden() {
           </div>
         </>
       ) : (
-        <div onClick={handleShowInfo}>Quit</div>
+        <>
+          <div>
+            <div onClick={handleShowInfo} className="leave-info">
+              Quit
+            </div>
+            <div className="more-info-container">More info</div>
+          </div>
+        </>
       )}
     </>
   );
