@@ -1,7 +1,7 @@
 .about-main-container {
   height: 100vh;
-  display: grid;
-  grid-template-rows: 1fr 10fr 1fr;
+  display: flex;
+  justify-content: center;
   background-color: rgb(234, 174, 242);
 }
 
@@ -43,13 +43,10 @@
 }
 
 .about-bot-links {
-  margin-bottom: 60px;
   background-color: rgb(234, 174, 242);
+  padding: 20px;
 }
 
-.empty {
-  background-color: rgb(234, 174, 242);
-}
 /* media */
 
 @media screen and (max-width: 375px) {
