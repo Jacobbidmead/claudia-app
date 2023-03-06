@@ -17,9 +17,6 @@ const About = () => {
           </span>
         </div>
         <div className="about-container">
-          {/* empty div */}
-          <div></div>
-          {/* empty div */}
           <div className="main-about">
             <div className="about-image-container">
               <img src="images/Claudia.jpeg" alt="" className="about-image" />{" "}
@@ -43,9 +40,6 @@ const About = () => {
               Gold”
             </span>
           </div>
-          {/* empty div */}
-          <div></div>
-          {/* empty div */}
         </div>
         <div className="links about-bot-links">
           <span className="bottom-links ">

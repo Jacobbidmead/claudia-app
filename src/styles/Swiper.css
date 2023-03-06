@@ -52,3 +52,15 @@
   text-decoration: underline;
   padding-top: 20px;
 }
+
+@media screen and (max-width: 1000px) {
+  .swiper-slide-img {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .swiper-slide-img {
+    width: 70%;
+  }
+}
