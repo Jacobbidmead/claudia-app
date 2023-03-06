@@ -3,6 +3,7 @@ import HiddenImg from "../../imageData/HiddenData.js";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/navigation";
 import "../../styles/Swiper.css";
+import "../../styles/MoreInfo.css";
 import { Navigation } from "swiper";
 import { Link } from "react-router-dom";
 
@@ -43,11 +44,13 @@ function Hidden() {
         </>
       ) : (
         <>
-          <div>
-            <div onClick={handleShowInfo} className="leave-info">
-              Quit
+          <div onClick={handleShowInfo} className="leave-info">
+            Quit
+          </div>
+          <div className="more-info-container">
+            <div className="more-info-text">
+              More info about each indiviual poroject will be here
             </div>
-            <div className="more-info-container">More info</div>
           </div>
         </>
       )}
