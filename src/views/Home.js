@@ -8,7 +8,7 @@ const Home = () => {
         <div className="links">
           <span className="top-links">
             <Link to="/" style={{ color: "white" }}>
-              CLAUDIA CANTARINI
+              Claudia Cantarini
             </Link>
           </span>
           <span className="top-links">

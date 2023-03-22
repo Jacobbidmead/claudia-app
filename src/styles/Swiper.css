@@ -37,13 +37,19 @@
   color: rgba(0, 0, 0, 0.5) !important;
 }
 
+.x {
+  padding: 20px;
+  width: 10%;
+}
+
 .swiper-links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .back-to-work {
   padding-top: 20px;
+  padding-left: 30px;
   text-decoration: underline;
 }
 
@@ -51,6 +57,7 @@
   cursor: pointer;
   text-decoration: underline;
   padding-top: 20px;
+  padding-right: 30px;
 }
 
 @media screen and (max-width: 1000px) {

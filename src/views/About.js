@@ -38,6 +38,12 @@ const About = () => {
               in Photography with the installation “All That Glitters is not
               Gold”
             </span>
+            <div className="about-books">
+              <b>Exhibitions and books</b> &bull;Photovogue, Vogue Italia &bull;
+              Portrait of Humanity Vol.3 The British Journal of Photography
+              &bull; Edition 365 - NFT sale on Opensea by British Journal of
+              Photography &bull; Exhibated at Photo London 2021 - Somerset House
+            </div>
           </div>
         </div>
 

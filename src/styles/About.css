@@ -2,7 +2,7 @@
   height: 100vh;
   display: grid;
   grid-template-rows: 1fr 10fr 1fr;
-  background-color: rgb(234, 174, 242);
+  background-color: rgb(229, 200, 233);
 }
 
 .about-container {
@@ -13,7 +13,11 @@
 .main-about {
   font-size: 22px;
   padding: 0px 40px 0px 40px;
-  background-color: rgb(234, 174, 242);
+  background-color: rgb(229, 200, 233);
+}
+
+.about-books {
+  padding-top: 30px;
 }
 
 .about-image-container {
@@ -36,21 +40,16 @@
 
 .about-intro {
   padding-left: 65px;
-  letter-spacing: 3px;
-}
-
-.about-works {
-  letter-spacing: 3px;
 }
 
 .about-bot-links {
-  background-color: rgb(234, 174, 242);
+  background-color: rgb(229, 200, 233);
 }
 
 .about-nav {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(234, 174, 242);
+  background-color: rgb(229, 200, 233);
 }
 
 /* media */

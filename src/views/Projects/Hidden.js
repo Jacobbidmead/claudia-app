@@ -20,11 +20,11 @@ function Hidden() {
         <>
           <div className="swiper-links">
             <Link to="/Work">
-              <div className="back-to-work">Back</div>
+              <img src="images/close.png" alt="" className="x" />
             </Link>
             <div onClick={handleShowInfo} className="more-info">
               More info
-            </div>{" "}
+            </div>
           </div>
           <div className="swiper-container">
             <Swiper
@@ -45,7 +45,7 @@ function Hidden() {
       ) : (
         <>
           <div onClick={handleShowInfo} className="leave-info">
-            Quit
+            <img src="images/close.png" alt="" className="x" />
           </div>
           <div className="more-info-container">
             <div className="more-info-text">
