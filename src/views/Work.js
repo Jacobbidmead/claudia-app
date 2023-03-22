@@ -30,7 +30,11 @@ const Work = () => {
           <img src="images/sophie.jpeg" alt="" className="image-links" />
         </Link>
         <Link to="/Vogue" className="image-links-container">
-          <img src="images/body.jpeg" alt="" className="image-links" />
+          <img
+            src="images/Vogue/vogue4.jpg"
+            alt=""
+            className="image-links vogue"
+          />
         </Link>
         <div className="image-links-container">
           <img src="images/fran.jpeg" alt="" className="image-links" />
