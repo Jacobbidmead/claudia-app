@@ -29,10 +29,9 @@ const Work = () => {
         <Link to="/Vulgar" className="image-links-container">
           <img src="images/sophie.jpeg" alt="" className="image-links" />
         </Link>
-
-        <div className="image-links-container">
+        <Link to="/Vogue" className="image-links-container">
           <img src="images/body.jpeg" alt="" className="image-links" />
-        </div>
+        </Link>
         <div className="image-links-container">
           <img src="images/fran.jpeg" alt="" className="image-links" />
         </div>
