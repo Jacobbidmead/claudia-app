@@ -31,18 +31,18 @@ const About = () => {
               interest lie in fashion, editorial and lifestyle photography
             </p>{" "}
             <span className="about-works">
-              <b>Selected publications:</b> &bull;Vogue Italia, British Journal
-              of Photography (Portrait of Humanity, Edition 360) , Photo London
+              <b>Selected publications:</b> Vogue Italia, British Journal of
+              Photography (Portrait of Humanity, Edition 360) , Photo London
               2021, Cartier (Saatchi Gallery) Having recently adopted mixed
               media art in her practice she has also achieved a First Class BA
               in Photography with the installation “All That Glitters is not
               Gold”
             </span>
             <div className="about-books">
-              <b>Exhibitions and books</b> &bull;Photovogue, Vogue Italia &bull;
-              Portrait of Humanity Vol.3 The British Journal of Photography
-              &bull; Edition 365 - NFT sale on Opensea by British Journal of
-              Photography &bull; Exhibated at Photo London 2021 - Somerset House
+              <b>Exhibitions and books</b> Photovogue, Vogue Italia, Portrait of
+              Humanity Vol.3 The British Journal of Photography, Edition 365 -
+              NFT sale on Opensea by British Journal of Photography, Exhibated
+              at Photo London 2021 - Somerset House.
             </div>
           </div>
         </div>
