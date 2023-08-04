@@ -5,10 +5,11 @@ import { Link } from "react-router-dom";
 const Work = () => {
   return (
     <>
-      <div className="work-container">
-        <Link to="/">
+      <Link to="/">
           <span className="return-home">Claudia Cantarini</span>
         </Link>
+      <div className="work-container">
+      
         <Link to="/Hidden" className="image-links-container">
           <img
             src="images/Hidden/Hidden4.jpeg"
