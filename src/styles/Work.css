@@ -2,8 +2,8 @@
   display: grid;
   grid-template-columns: 4fr 4fr 4fr;
   /* background-color: black; */
-  column-gap: 4rem;
-  padding: 30px;
+  column-gap: 2rem;
+  padding: 20px;
 }
 
 .image-links {
@@ -34,19 +34,9 @@
   left: 23%;
 }
 
-.return-home {
-  font-size: 27px;
-  padding-top: 15px;
-}
-
-.glitters {
-  height: 65%;
-  margin-top: 40px;
-}
-
-.vogue {
-  height: 65%;
-  margin-top: 60px;
+.project-name {
+  font-size: 12px;
+  padding-left: 20px;
 }
 
 /* media */

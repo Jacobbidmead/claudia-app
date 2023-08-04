@@ -83,7 +83,7 @@ const Work = () => {
             <img
               src="images/Work/glitterswork.jpg"
               alt=""
-              className="image-links glitters"
+              className="image-links"
             />
             <span className="project-name">All That Glitters</span>
           </div>
