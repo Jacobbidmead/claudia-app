@@ -11,7 +11,7 @@ const Work = () => {
       <div className="work-container">
         <Link to="/Hidden" className="image-links-container">
           <img
-            src="images/Hidden/Hidden4.jpeg"
+            src="images/Work/hiddenwork.jpg"
             alt=""
             className="image-links"
           />
@@ -24,7 +24,7 @@ const Work = () => {
           />
         </Link>
         <Link to="/Girls" className="image-links-container">
-          <img src="images/Girls/Girl1.jpg" alt="" className="image-links" />
+          <img src="images/Work/girlswork.jpg" alt="" className="image-links" />
         </Link>
         <Link to="/Vulgar" className="image-links-container">
           <img src="images/sophie.jpeg" alt="" className="image-links" />
@@ -37,7 +37,11 @@ const Work = () => {
           />
         </Link>
         <div className="image-links-container">
-          <img src="images/fran.jpeg" alt="" className="image-links" />
+          <img
+            src="images/Work/francescawork.jpg"
+            alt=""
+            className="image-links"
+          />
         </div>
         <div className="image-links-container">
           <img src="images/valentina.jpg" alt="" className="image-links" />
