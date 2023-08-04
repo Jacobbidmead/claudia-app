@@ -46,9 +46,9 @@ const Work = () => {
         <div className="image-links-container">
           <img src="images/Work/songwork.jpg" alt="" className="image-links" />
         </div>
-        {/* <Link to="/ATG" className="image-links-container">
+        <Link to="/ATG" className="image-links-container">
           <img
-            src="images/Glitters/Glitters3.jpeg"
+            src="images/Work/glitterswork.jpg"
             alt=""
             className="image-links glitters"
           />
@@ -59,7 +59,7 @@ const Work = () => {
             alt=""
             className="image-links vogue"
           />
-        </Link> */}
+        </Link>
       </div>
       <Nav />
     </>
