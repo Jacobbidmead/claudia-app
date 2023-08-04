@@ -6,9 +6,6 @@ import Nav from "../components/Nav";
 const Work = () => {
   return (
     <>
-      <Link to="/">
-        <span className="return-home">Claudia Cantarini</span>
-      </Link>
       <div className="work-container">
         <Link to="/Hidden" className="image-links-container">
           <img
@@ -17,26 +14,14 @@ const Work = () => {
             className="image-links"
           />
         </Link>
-        <Link to="/ATG" className="image-links-container">
-          <img
-            src="images/Glitters/Glitters3.jpeg"
-            alt=""
-            className="image-links glitters"
-          />
-        </Link>
+
         <Link to="/Girls" className="image-links-container">
           <img src="images/Work/girlswork.jpg" alt="" className="image-links" />
         </Link>
-        <Link to="/Vulgar" className="image-links-container">
+        {/* <Link to="/Vulgar" className="image-links-container">
           <img src="images/sophie.jpeg" alt="" className="image-links" />
-        </Link>
-        <Link to="/Vogue" className="image-links-container">
-          <img
-            src="images/Vogue/vogue4.jpg"
-            alt=""
-            className="image-links vogue"
-          />
-        </Link>
+        </Link> */}
+
         <div className="image-links-container">
           <img
             src="images/Work/francescawork.jpg"
@@ -45,8 +30,36 @@ const Work = () => {
           />
         </div>
         <div className="image-links-container">
-          <img src="images/valentina.jpg" alt="" className="image-links" />
+          <img
+            src="images/Work/modelswork.jpg"
+            alt=""
+            className="image-links"
+          />
         </div>
+        <div className="image-links-container">
+          <img
+            src="images/Work/cartierwork.jpg"
+            alt=""
+            className="image-links"
+          />
+        </div>
+        <div className="image-links-container">
+          <img src="images/Work/songwork.jpg" alt="" className="image-links" />
+        </div>
+        {/* <Link to="/ATG" className="image-links-container">
+          <img
+            src="images/Glitters/Glitters3.jpeg"
+            alt=""
+            className="image-links glitters"
+          />
+        </Link>
+        <Link to="/Vogue" className="image-links-container">
+          <img
+            src="images/Vogue/vogue4.jpg"
+            alt=""
+            className="image-links vogue"
+          />
+        </Link> */}
       </div>
       <Nav />
     </>

@@ -7,18 +7,18 @@ const Nav = () => {
       <div className="nav-bar links">
         <div>
           {" "}
-          <Link to="/" style={{ color: "white" }} className="link">
-            Claudia Cantarini
+          <Link to="/" style={{ color: "black" }} className="link">
+            CLAUDIA CANTARINI
           </Link>
         </div>
         <div>
-          <Link to="/Work" style={{ color: "white" }} className="link">
+          <Link to="/Work" style={{ color: "black" }} className="link">
             work
           </Link>
         </div>
         <div>
           {" "}
-          <Link to="/about" style={{ color: "white" }} className="link">
+          <Link to="/about" style={{ color: "black" }} className="link">
             contact
           </Link>
         </div>

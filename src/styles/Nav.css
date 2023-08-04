@@ -8,10 +8,10 @@
   justify-content: space-around;
   font-size: 18px;
   cursor: pointer;
-  color: rgb(255, 255, 255);
+  color: black;
   padding-bottom: 10px;
   padding-top: 10px;
-  background-color: rgba(4, 4, 4, 0.252);
+  /* background-color: rgba(4, 4, 4, 0.252); */
   position: fixed;
   bottom: 0;
   width: 100%;
