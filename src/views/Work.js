@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Work.css";
 import { Link } from "react-router-dom";
+import Nav from "../components/Nav";
 
 const Work = () => {
   return (
@@ -47,6 +48,7 @@ const Work = () => {
           <img src="images/valentina.jpg" alt="" className="image-links" />
         </div>
       </div>
+      <Nav />
     </>
   );
 };
