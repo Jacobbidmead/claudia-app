@@ -1,6 +1,6 @@
 .work-container {
   display: grid;
-  grid-template-columns: 3fr 3fr 3fr 3fr;
+  grid-template-columns: 4fr 4fr 4fr;
   /* background-color: black; */
   column-gap: 4rem;
   padding: 30px;
