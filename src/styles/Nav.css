@@ -3,18 +3,31 @@
   display: grid;
 }
 
-.link {
-  color: black;
-  font-size: clamp(2rem, 8vw, 10rem);
-  font-family: "Rubik", sans-serif;
-  margin: 0rem;
-  text-transform: uppercase;
-  transition: 0.5s ease-in-out;
+.links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
 }
 
-.links {
-  background-color: black;
-  color: white;
+.bottom-links:hover {
+  opacity: 0.5;
+  transition: 0.2s ease;
+}
+
+.top-links {
+  padding: 15px;
+}
+
+.top-links:hover {
+  opacity: 0.5;
+  transition: 0.2s ease;
+}
+
+.bottom-links {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #text:has(.highlight:hover) .link:not(.highlight:hover) {
@@ -28,7 +41,6 @@
 }
 
 .home-bg-image {
-  background-image: url("/public/images/test.jpeg");
   height: 200px;
   position: absolute;
   margin-bottom: 30px;

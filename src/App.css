@@ -27,42 +27,12 @@ body {
 
 .home-container {
   height: 100vh;
-  display: grid;
-  grid-template-rows: 1fr 10fr 1fr;
-  background-color: black;
-  color: white;
 }
 
 .home-image-container {
   display: flex;
   justify-content: center;
-}
-
-.links {
-  display: flex;
-  justify-content: space-between;
-  font-size: 22px;
-  cursor: pointer;
-  color: white;
-}
-
-.bottom-links:hover {
-  opacity: 0.5;
-  transition: 0.2s ease;
-}
-
-.top-links {
-  padding: 15px;
-}
-
-.top-links:hover {
-  opacity: 0.5;
-  transition: 0.2s ease;
-}
-
-.bottom-links {
-  padding-left: 20px;
-  padding-right: 20px;
+  height: 100%;
 }
 
 .home-image {
