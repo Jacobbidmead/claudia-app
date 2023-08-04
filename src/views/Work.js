@@ -6,10 +6,9 @@ const Work = () => {
   return (
     <>
       <Link to="/">
-          <span className="return-home">Claudia Cantarini</span>
-        </Link>
+        <span className="return-home">Claudia Cantarini</span>
+      </Link>
       <div className="work-container">
-      
         <Link to="/Hidden" className="image-links-container">
           <img
             src="images/Hidden/Hidden4.jpeg"
@@ -41,7 +40,7 @@ const Work = () => {
           <img src="images/fran.jpeg" alt="" className="image-links" />
         </div>
         <div className="image-links-container">
-          <img src="images/pearl.jpeg" alt="" className="image-links" />
+          <img src="images/valentina.jpg" alt="" className="image-links" />
         </div>
       </div>
     </>

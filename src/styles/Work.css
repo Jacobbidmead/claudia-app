@@ -7,13 +7,15 @@
 }
 
 .image-links {
-  width: 70%;
+  width: 100%;
   padding: 10px;
+  object-fit: contain;
 }
 
 .image-links-container {
   display: flex;
   justify-content: center;
+  object-fit: contain;
 }
 
 .hidden-word {
