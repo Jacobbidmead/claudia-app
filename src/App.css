@@ -50,7 +50,7 @@ body {
   display: flex;
   justify-content: space-between;
   position: absolute; /* Added */
-  bottom: 20px; /* Added */
+  bottom: 0px; /* Added */
   width: 100%; /* Added */
 }
 
