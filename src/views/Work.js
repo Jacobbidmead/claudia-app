@@ -44,7 +44,7 @@ const Work = () => {
             <span className="project-name">Francesca </span>
           </div>
         </div>
-        <div className="image-links-container">
+        <Link to="/Models" className="image-links-container">
           <div>
             {" "}
             <img
@@ -54,7 +54,7 @@ const Work = () => {
             />
             <span className="project-name">Modals</span>
           </div>
-        </div>
+        </Link>
         <div className="image-links-container">
           <div>
             {" "}
@@ -88,13 +88,6 @@ const Work = () => {
             <span className="project-name">All That Glitters</span>
           </div>
         </Link>
-        {/* <Link to="/Vogue" className="image-links-container">
-          <img
-            src="images/Vogue/vogue4.jpg"
-            alt=""
-            className="image-links vogue"
-          />
-        </Link> */}
       </div>
       <Nav currentPage={"work"} />
     </>

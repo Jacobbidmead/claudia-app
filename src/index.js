@@ -11,6 +11,7 @@ import Girls from "./views/Projects/Girls.js";
 import Hidden from "./views/Projects/Hidden.js";
 import Vulgar from "./views/Projects/Vulgar";
 import Vogue from "./views/Projects/Vogue";
+import Models from "./views/Projects/Models.js";
 import "swiper/css/bundle";
 
 const router = createBrowserRouter([
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
   {
     path: "/Vogue",
     element: <Vogue />,
+  },
+  {
+    path: "/Models",
+    element: <Models />,
   },
 ]);
 
