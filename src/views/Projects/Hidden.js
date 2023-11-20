@@ -5,7 +5,7 @@ import "swiper/css/navigation";
 import "../../styles/Swiper.css";
 import "../../styles/MoreInfo.css";
 import { Navigation } from "swiper";
-import { Link } from "react-router-dom";
+import ProjectNav from "../../components/ProjectNav.js";
 
 function Hidden() {
   const [showInfo, setShowInfo] = useState(true);
@@ -18,14 +18,7 @@ function Hidden() {
     <>
       {showInfo ? (
         <>
-          <div className="swiper-links">
-            <Link to="/Work">
-              <img src="images/close.png" alt="" className="x" />
-            </Link>
-            <div onClick={handleShowInfo} className="more-info">
-              More info
-            </div>
-          </div>
+          <ProjectNav handleShowInfo={handleShowInfo} />
           <div className="swiper-container">
             <Swiper
               navigation={true}
