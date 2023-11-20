@@ -6,6 +6,7 @@ import "../../styles/Swiper.css";
 import "../../styles/MoreInfo.css";
 import { Navigation } from "swiper";
 import ProjectNav from "../../components/ProjectNav.js";
+import Nav from "../../components/Nav.js";
 
 function Hidden() {
   const [showInfo, setShowInfo] = useState(true);
@@ -34,6 +35,7 @@ function Hidden() {
               })}
             </Swiper>
           </div>
+          <Nav />
         </>
       ) : (
         <>

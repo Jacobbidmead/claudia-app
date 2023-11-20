@@ -96,7 +96,7 @@ const Work = () => {
           />
         </Link> */}
       </div>
-      <Nav />
+      <Nav currentPage={"work"} />
     </>
   );
 };

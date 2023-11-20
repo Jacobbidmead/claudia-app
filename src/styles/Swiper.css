@@ -14,8 +14,13 @@
 }
 
 .swiper-container {
-  height: 100vh;
+  display: flex;
 }
+
+.mySwiper {
+  margin-top: 20px;
+}
+
 .swiper-slide-img {
   object-fit: cover;
   width: 30%;
@@ -37,14 +42,10 @@
   color: rgba(0, 0, 0, 0.5) !important;
 }
 
-.x {
-  padding: 20px;
-  width: 10%;
-}
-
 .swiper-links {
   display: flex;
   justify-content: space-between;
+  font-size: 12px;
 }
 
 .back-to-work {
@@ -55,9 +56,9 @@
 
 .more-info {
   cursor: pointer;
-  text-decoration: underline;
-  padding-top: 20px;
-  padding-right: 30px;
+
+  padding-top: 10px;
+  padding-right: 14px;
 }
 
 @media screen and (max-width: 1000px) {
