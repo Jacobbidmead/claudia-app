@@ -52,7 +52,7 @@ const Work = () => {
               alt=""
               className="image-links"
             />
-            <span className="project-name">Modals</span>
+            <span className="project-name">Models</span>
           </div>
         </Link>
         <div className="image-links-container">

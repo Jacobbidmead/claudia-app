@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import HiddenImg from "../../imageData/HiddenData.js";
+import ModelsImg from "../../imageData/ModelsData.js";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/navigation";
 import "../../styles/Swiper.css";
@@ -26,7 +26,7 @@ function Models() {
               modules={[Navigation]}
               className="mySwiper"
             >
-              {HiddenImg.map((el, i) => {
+              {ModelsImg.map((el, i) => {
                 return (
                   <SwiperSlide key={i}>
                     <img src={el} alt="" className="swiper-slide-img" />
