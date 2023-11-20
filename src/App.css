@@ -27,12 +27,24 @@ body {
 
 .home-container {
   height: 100vh;
-}
-
-.home-image-container {
+  background-image: url("/public/images/MAINPAGE.jpg");
+  background-size: cover;
   display: flex;
   justify-content: center;
-  height: 100%;
+  align-items: center;
+}
+
+.home-text {
+  color: white;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  font-size: 80px;
+}
+
+.home-text:hover {
+  opacity: 0.8;
+  transition: 0.2s ease;
 }
 
 .home-image {

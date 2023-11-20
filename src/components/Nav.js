@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import "../styles/Nav.css";
 
 const Nav = ({ currentPage }) => {
-  // Determine color based on currentPage
   const linkColor = currentPage === "work" ? "#EC5929" : "black";
 
   return (
