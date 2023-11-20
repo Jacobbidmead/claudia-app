@@ -7,22 +7,22 @@ const Nav = () => {
       <div className="nav-bar links">
         <div>
           {" "}
-          <Link to="/" style={{ color: "black" }} className="link">
+          <Link to="/" style={{ color: "#EC5929" }} className="link">
             CLAUDIA CANTARINI
           </Link>
         </div>
         <div>
-          <Link to="/Work" style={{ color: "black" }} className="link">
+          <Link to="/Work" style={{ color: "#EC5929" }} className="link">
             work
           </Link>
         </div>
         <div>
           {" "}
-          <Link to="/about" style={{ color: "black" }} className="link">
+          <Link to="/about" style={{ color: "#EC5929" }} className="link">
             contact
           </Link>
         </div>
-        <div className="link">instagram</div>
+        <div className="link" style={{ color: "#EC5929" }}>instagram</div>
       </div>
     </>
   );
