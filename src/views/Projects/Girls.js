@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/navigation";
 import "../../styles/Swiper.css";
 import { Navigation } from "swiper";
-import { Link } from "react-router-dom";
+import ProjectNav from "../../components/ProjectNav.js";
 
 function Girls() {
   const [showInfo, setShowInfo] = useState(true);
@@ -17,7 +17,7 @@ function Girls() {
     <>
       {showInfo ? (
         <>
-          <Link to="/Work">Back</Link>
+          <ProjectNav handleShowInfo={handleShowInfo} />
           <div className="swiper-container">
             <Swiper
               navigation={true}
@@ -32,13 +32,19 @@ function Girls() {
                 );
               })}
             </Swiper>
-            <div onClick={handleShowInfo} className="more-info">
-              More info
-            </div>{" "}
           </div>
         </>
       ) : (
-        <div onClick={handleShowInfo}>info here</div>
+        <>
+          <div onClick={handleShowInfo} className="leave-info">
+            <img src="images/close.png" alt="" className="x" />
+          </div>
+          <div className="more-info-container">
+            <div className="more-info-text">
+              More info about each indiviual poroject will be here
+            </div>
+          </div>
+        </>
       )}
     </>
   );

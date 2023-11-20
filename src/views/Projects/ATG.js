@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/navigation";
 import "../../styles/Swiper.css";
 import { Navigation } from "swiper";
-import { Link } from "react-router-dom";
+import ProjectNav from "../../components/ProjectNav.js";
 
 function ATG() {
   const [showInfo, setShowInfo] = useState(true);
@@ -17,14 +17,7 @@ function ATG() {
     <>
       {showInfo ? (
         <>
-          <div className="swiper-links">
-            <Link to="/Work">
-              <div className="back-to-work">Back</div>
-            </Link>
-            <div onClick={handleShowInfo} className="more-info">
-              More info
-            </div>
-          </div>
+          <ProjectNav handleShowInfo={handleShowInfo} />
           <div className="swiper-container">
             <Swiper
               navigation={true}
@@ -39,15 +32,12 @@ function ATG() {
                 );
               })}
             </Swiper>
-            <div onClick={handleShowInfo} className="more-info">
-              More info
-            </div>{" "}
           </div>
         </>
       ) : (
         <>
           <div onClick={handleShowInfo} className="leave-info">
-            Quit
+            <img src="images/close.png" alt="" className="x" />
           </div>
           <div className="more-info-container">
             <div className="more-info-text">
