@@ -1,6 +1,5 @@
 let GirlsImg = [
   "./images/Girls/double.jpg",
-  "images/Girls/girl2.jpg",
   "images/Girls/girl4.jpg",
   "images/Girls/girl5.jpg",
   "images/Girls/girl9.jpg",

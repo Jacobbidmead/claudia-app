@@ -5,6 +5,7 @@ import "swiper/css/navigation";
 import "../../styles/Swiper.css";
 import { Navigation } from "swiper";
 import ProjectNav from "../../components/ProjectNav.js";
+import Nav from "../../components/Nav.js";
 
 function ATG() {
   const [showInfo, setShowInfo] = useState(true);
@@ -27,12 +28,13 @@ function ATG() {
               {GlittersImg.map((el, i) => {
                 return (
                   <SwiperSlide key={i}>
-                    <img src={el} alt="" className="glitters-swiper-img" />
+                    <img src={el} alt="" className="swiper-slide-img" />
                   </SwiperSlide>
                 );
               })}
             </Swiper>
           </div>
+          <Nav />
         </>
       ) : (
         <>

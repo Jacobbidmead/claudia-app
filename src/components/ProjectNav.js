@@ -8,7 +8,7 @@ const ProjectNav = (props) => {
           <img src="images/close.png" alt="" className="x" />
         </Link>
         <div onClick={props.handleShowInfo} className="more-info">
-          More info
+          Info
         </div>
       </div>
     </>

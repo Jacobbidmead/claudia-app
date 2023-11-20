@@ -28,10 +28,13 @@
 
 .glitters-swiper-img {
   width: 35%;
+  object-fit: cover;
 }
 
 .girls-swiper-img {
   width: 60%;
+  object-fit: cover;
+  height: auto;
 }
 
 .swiper-button-next {
@@ -45,7 +48,7 @@
 .swiper-links {
   display: flex;
   justify-content: space-between;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .back-to-work {
@@ -56,7 +59,6 @@
 
 .more-info {
   cursor: pointer;
-
   padding-top: 10px;
   padding-right: 14px;
 }

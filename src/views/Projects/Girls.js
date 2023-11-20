@@ -27,7 +27,7 @@ function Girls() {
               {GirlsImg.map((el, i) => {
                 return (
                   <SwiperSlide key={i}>
-                    <img src={el} alt="" className="girls-swiper-img" />
+                    <img src={el} alt="" className="swiper-slide-img" />
                   </SwiperSlide>
                 );
               })}
