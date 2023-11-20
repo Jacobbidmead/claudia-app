@@ -1,4 +1,11 @@
+import { useState } from "react";
+
 const ProjectNav = () => {
+  const [showInfo, setShowInfo] = useState(true);
+
+  const handleShowInfo = () => {
+    setShowInfo(!showInfo);
+  };
   return (
     <>
       <div className="swiper-links">
