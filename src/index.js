@@ -9,8 +9,6 @@ import Work from "./views/Work";
 import ATG from "./views/Projects/ATG.js";
 import Girls from "./views/Projects/Girls.js";
 import Hidden from "./views/Projects/Hidden.js";
-import Vulgar from "./views/Projects/Vulgar";
-import Vogue from "./views/Projects/Vogue";
 import Models from "./views/Projects/Models.js";
 import "swiper/css/bundle";
 
@@ -38,14 +36,6 @@ const router = createBrowserRouter([
   {
     path: "/Hidden",
     element: <Hidden />,
-  },
-  {
-    path: "/Vulgar",
-    element: <Vulgar />,
-  },
-  {
-    path: "/Vogue",
-    element: <Vogue />,
   },
   {
     path: "/Models",

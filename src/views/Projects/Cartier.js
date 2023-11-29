@@ -1,12 +1,14 @@
 import React, { useState } from "react";
+import CartierImg from "../../imageData/CartierData.js";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/navigation";
 import "../../styles/Swiper.css";
 import "../../styles/MoreInfo.css";
 import { Navigation } from "swiper";
-import { Link } from "react-router-dom";
-import VogueImage from "../../imageData/VogueData";
-function Vogue() {
+import ProjectNav from "../../components/ProjectNav.js";
+import Nav from "../../components/Nav.js";
+
+function Cartier() {
   const [showInfo, setShowInfo] = useState(true);
 
   const handleShowInfo = () => {
@@ -17,29 +19,23 @@ function Vogue() {
     <>
       {showInfo ? (
         <>
-          <div className="swiper-links">
-            <Link to="/Work">
-              <img src="images/close.png" alt="" className="x" />
-            </Link>
-            <div onClick={handleShowInfo} className="more-info">
-              More info
-            </div>
-          </div>
+          <ProjectNav handleShowInfo={handleShowInfo} />
           <div className="swiper-container">
             <Swiper
               navigation={true}
               modules={[Navigation]}
               className="mySwiper"
             >
-              {VogueImage.map((el, i) => {
+              {CartierImg.map((el, i) => {
                 return (
                   <SwiperSlide key={i}>
-                    <img src={el} alt="" className="swiper-slide-img" />
+                    <img src={el} alt="" className="models-swiper-img" />
                   </SwiperSlide>
                 );
               })}
             </Swiper>
           </div>
+          <Nav />
         </>
       ) : (
         <>
@@ -48,7 +44,7 @@ function Vogue() {
           </div>
           <div className="more-info-container">
             <div className="more-info-text">
-              More info about each indiviual poroject will be here
+              More info about each indiviual project will be here
             </div>
           </div>
         </>
@@ -57,4 +53,4 @@ function Vogue() {
   );
 }
 
-export default Vogue;
+export default Cartier;
