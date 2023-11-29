@@ -11,6 +11,7 @@ import Girls from "./views/Projects/Girls.js";
 import Hidden from "./views/Projects/Hidden.js";
 import Models from "./views/Projects/Models.js";
 import "swiper/css/bundle";
+import Cartier from "./views/Projects/Cartier.js";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
   {
     path: "/Models",
     element: <Models />,
+  },
+  {
+    path: "/Cartier",
+    element: <Cartier />,
   },
 ]);
 

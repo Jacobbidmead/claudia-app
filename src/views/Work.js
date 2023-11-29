@@ -55,7 +55,7 @@ const Work = () => {
             <span className="project-name">Models</span>
           </div>
         </Link> */}
-        <div className="image-links-container">
+        <Link to="/Cartier" className="image-links-container">
           <div>
             {" "}
             <img
@@ -65,7 +65,7 @@ const Work = () => {
             />
             <span className="project-name">Cartier</span>
           </div>
-        </div>
+        </Link>
         <div className="image-links-container">
           <div>
             {" "}

@@ -1,16 +1,15 @@
 let CartierImg = [
-  "images/Girls/girls.jpg",
-  "images/Girls/girls1.jpg",
-  "images/Girls/girls2.jpg",
-  "images/Girls/girls4.jpg",
-  "images/Girls/girls5.jpg",
-  "images/Girls/girls6.jpg",
-  "images/Girls/girls7.jpg",
-  "images/Girls/girls8.jpg",
-  "images/Girls/girls9.jpg",
-  "images/Girls/girls10.jpg",
-  "images/Models/models2.jpg",
-  "images/Models/models3.jpg",
+  "images/Cartier/Cartier.jpg",
+  "images/Cartier/Cartier2.jpg",
+  "images/Cartier/Cartier3.jpg",
+  "images/Cartier/Cartier4.jpg",
+  "images/Cartier/Cartier5.jpg",
+  "images/Cartier/Cartier6.jpg",
+  "images/Cartier/Cartier7.jpg",
+  "images/Cartier/Cartier8.jpg",
+  "images/Cartier/Cartier9.jpg",
+  "images/Cartier/Cartier10.jpg",
+  "images/Cartier/Cartier11.jpg",
 ];
 
-export default CartierImgImg;
+export default CartierImg;
