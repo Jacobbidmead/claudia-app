@@ -29,7 +29,7 @@ function Cartier() {
               {CartierImg.map((el, i) => {
                 return (
                   <SwiperSlide key={i}>
-                    <img src={el} alt="" className="models-swiper-img" />
+                    <img src={el} alt="" className="cartier-swiper-img" />
                   </SwiperSlide>
                 );
               })}

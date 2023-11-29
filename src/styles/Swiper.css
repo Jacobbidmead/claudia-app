@@ -41,6 +41,11 @@
   height: auto;
 }
 
+.cartier-swiper-img {
+  width: 30%;
+  object-fit: cover;
+}
+
 .swiper-button-next {
   color: rgba(0, 0, 0, 0.5) !important;
 }
