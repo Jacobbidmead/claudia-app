@@ -16,9 +16,6 @@ const Nav = ({ currentPage }) => {
           about
         </Link>
       </div>
-      <div className="link" style={{ color: linkColor }}>
-        instagram
-      </div>
     </div>
   );
 };

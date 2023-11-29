@@ -59,7 +59,7 @@ body {
   margin: 5px;
   padding: 5px;
   color: black;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .home-text:hover {
@@ -140,8 +140,9 @@ body {
     background-repeat: no-repeat;
     background-image: url("/public/images/MOBILEPAGE.jpg");
   }
-  .home-links {
+  .home-link {
     font-size: 14px;
+    color: white;
   }
 
   .home-text {

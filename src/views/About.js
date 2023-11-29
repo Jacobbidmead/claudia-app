@@ -49,7 +49,7 @@ const About = () => {
 
         <div className="links about-bot-links">
           <span className="bottom-links ">
-            <Link to="/about">About</Link>
+            <Link to="/Work">Work</Link>
           </span>
           <span style={{ color: "black" }} className="bottom-links ">
             Instagram
