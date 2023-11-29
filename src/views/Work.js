@@ -44,7 +44,7 @@ const Work = () => {
             <span className="project-name">Francesca </span>
           </div>
         </div>
-        <Link to="/Models" className="image-links-container">
+        {/* <Link to="/Models" className="image-links-container">
           <div>
             {" "}
             <img
@@ -54,7 +54,7 @@ const Work = () => {
             />
             <span className="project-name">Models</span>
           </div>
-        </Link>
+        </Link> */}
         <div className="image-links-container">
           <div>
             {" "}

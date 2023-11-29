@@ -3,8 +3,10 @@ import GirlsImg from "../../imageData/GirlsData.js";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/navigation";
 import "../../styles/Swiper.css";
+import "../../styles/MoreInfo.css";
 import { Navigation } from "swiper";
 import ProjectNav from "../../components/ProjectNav.js";
+import Nav from "../../components/Nav.js";
 
 function Girls() {
   const [showInfo, setShowInfo] = useState(true);
@@ -27,12 +29,13 @@ function Girls() {
               {GirlsImg.map((el, i) => {
                 return (
                   <SwiperSlide key={i}>
-                    <img src={el} alt="" className="swiper-slide-img" />
+                    <img src={el} alt="" className="girls-swiper-img" />
                   </SwiperSlide>
                 );
               })}
             </Swiper>
           </div>
+          <Nav />
         </>
       ) : (
         <>
@@ -41,7 +44,7 @@ function Girls() {
           </div>
           <div className="more-info-container">
             <div className="more-info-text">
-              More info about each indiviual poroject will be here
+              More info about each indiviual project will be here
             </div>
           </div>
         </>
