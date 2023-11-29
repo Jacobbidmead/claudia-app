@@ -12,13 +12,8 @@ const Nav = ({ currentPage }) => {
         </Link>
       </div>
       <div>
-        <Link to="/Work" style={{ color: linkColor }} className="link">
-          work
-        </Link>
-      </div>
-      <div>
         <Link to="/about" style={{ color: linkColor }} className="link">
-          contact
+          about
         </Link>
       </div>
       <div className="link" style={{ color: linkColor }}>

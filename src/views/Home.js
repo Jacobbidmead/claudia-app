@@ -16,12 +16,12 @@ const Home = () => {
             alt="my instagram"
             target="_blank"
             rel="noreferrer"
-            style={{ color: "red", padding: "10px" }}
+            className="home-link"
           >
             insta
           </a>
 
-          <div style={{ padding: "10px", color: "red" }}>get in touch </div>
+          <div className="home-link">get in touch </div>
         </div>
       </div>
     </>

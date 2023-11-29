@@ -87,6 +87,10 @@
   }
 
   .swiper-container {
-    padding-top: 85px;
+    height: 80vh;
+  }
+
+  .models-swiper-img {
+    width: 100%;
   }
 }

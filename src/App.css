@@ -55,6 +55,15 @@ body {
   width: 100%; /* Added */
 }
 
+.home-link {
+  background-color: rgba(246, 243, 244, 0.196);
+  border-radius: 2px;
+  margin: 5px;
+  padding: 5px;
+  color: black;
+  font-size: 22px;
+}
+
 .home-text:hover {
   opacity: 0.8;
   transition: 0.2s ease;
@@ -138,7 +147,7 @@ body {
   }
 
   .home-text {
-    font-size: 30px;
+    font-size: 20px;
     color: black;
   }
 }
