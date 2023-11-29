@@ -46,22 +46,20 @@ body {
 }
 
 .home-links {
-  font-size: 20px;
   color: white;
   display: flex;
   justify-content: space-between;
   position: absolute; /* Added */
-  bottom: 0px; /* Added */
+  top: 0px; /* Added */
   width: 100%; /* Added */
 }
 
 .home-link {
-  background-color: rgba(246, 243, 244, 0.196);
   border-radius: 2px;
   margin: 5px;
   padding: 5px;
   color: black;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .home-text:hover {
