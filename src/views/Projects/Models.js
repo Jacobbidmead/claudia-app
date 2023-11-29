@@ -29,7 +29,7 @@ function Models() {
               {ModelsImg.map((el, i) => {
                 return (
                   <SwiperSlide key={i}>
-                    <img src={el} alt="" className="swiper-slide-img" />
+                    <img src={el} alt="" className="models-swiper-img" />
                   </SwiperSlide>
                 );
               })}
@@ -44,7 +44,7 @@ function Models() {
           </div>
           <div className="more-info-container">
             <div className="more-info-text">
-              More info about each indiviual poroject will be here
+              More info about each indiviual project will be here
             </div>
           </div>
         </>
