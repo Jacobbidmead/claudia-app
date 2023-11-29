@@ -29,10 +29,7 @@ const Work = () => {
             <span className="project-name">Girls</span>
           </div>
         </Link>
-        {/* <Link to="/Vulgar" className="image-links-container">
-          <img src="images/sophie.jpeg" alt="" className="image-links" />
-        </Link> */}
-
+        {/* 
         <div className="image-links-container">
           <div>
             {" "}
@@ -43,18 +40,8 @@ const Work = () => {
             />
             <span className="project-name">Francesca </span>
           </div>
-        </div>
-        {/* <Link to="/Models" className="image-links-container">
-          <div>
-            {" "}
-            <img
-              src="images/Work/modelswork.jpg"
-              alt=""
-              className="image-links"
-            />
-            <span className="project-name">Models</span>
-          </div>
-        </Link> */}
+        </div> */}
+
         <Link to="/Cartier" className="image-links-container">
           <div>
             {" "}
@@ -64,6 +51,18 @@ const Work = () => {
               className="image-links"
             />
             <span className="project-name">Cartier</span>
+          </div>
+        </Link>
+
+        <Link to="/Tara" className="image-links-container">
+          <div>
+            {" "}
+            <img
+              src="images/Work/tarawork.jpg"
+              alt=""
+              className="image-links"
+            />
+            <span className="project-name">Tara</span>
           </div>
         </Link>
         <Link to="/Song" className="image-links-container">

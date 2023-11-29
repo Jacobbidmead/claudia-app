@@ -46,6 +46,11 @@
   object-fit: cover;
 }
 
+.tara-swiper-img {
+  width: 30%;
+  object-fit: cover;
+}
+
 .swiper-button-next {
   color: rgba(0, 0, 0, 0.5) !important;
 }
@@ -94,6 +99,9 @@
   }
 
   .models-swiper-img {
+    width: 100%;
+  }
+  .girls-swiper-img {
     width: 100%;
   }
 }

@@ -1,4 +1,5 @@
 let SongImage = [
+  "images/Song/Song5.jpg",
   "images/Song/Song.jpg",
   "images/Song/Song1.jpg",
   "images/Song/Song3.jpg",

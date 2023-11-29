@@ -13,6 +13,7 @@ import Models from "./views/Projects/Models.js";
 import Song from "./views/Projects/Song.js";
 import "swiper/css/bundle";
 import Cartier from "./views/Projects/Cartier.js";
+import Tara from "./views/Projects/Tara.js";
 
 const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
   {
     path: "/Song",
     element: <Song />,
+  },
+  {
+    path: "/Tara",
+    element: <Tara />,
   },
 ]);
 
