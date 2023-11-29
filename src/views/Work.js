@@ -66,17 +66,13 @@ const Work = () => {
             <span className="project-name">Cartier</span>
           </div>
         </Link>
-        <div className="image-links-container">
+        <Link to="/Song" className="image-links-container">
           <div>
             {" "}
-            <img
-              src="images/Work/songwork.jpg"
-              alt=""
-              className="image-links"
-            />
+            <img src="images/Song/Song2.jpg" alt="" className="image-links" />
             <span className="project-name">Song</span>
           </div>
-        </div>
+        </Link>
         <Link to="/ATG" className="image-links-container">
           <div>
             {" "}

@@ -10,6 +10,7 @@ import ATG from "./views/Projects/ATG.js";
 import Girls from "./views/Projects/Girls.js";
 import Hidden from "./views/Projects/Hidden.js";
 import Models from "./views/Projects/Models.js";
+import Song from "./views/Projects/Song.js";
 import "swiper/css/bundle";
 import Cartier from "./views/Projects/Cartier.js";
 
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
   {
     path: "/Cartier",
     element: <Cartier />,
+  },
+  {
+    path: "/Song",
+    element: <Song />,
   },
 ]);
 
