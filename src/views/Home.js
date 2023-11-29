@@ -11,18 +11,17 @@ const Home = () => {
           </div>
         </Link>
         <div className="home-links">
-          <div>
-            <a
-              href="https://www.instagram.com/claudia.cantarini/"
-              alt="my instagram"
-              target="_blank"
-              rel="noreferrer"
-              style={{ color: "red", padding: "10px" }}
-            >
-              insta
-            </a>
-          </div>
-          <div style={{ padding: "10px" }}>get in touch </div>
+          <a
+            href="https://www.instagram.com/claudia.cantarini/"
+            alt="my instagram"
+            target="_blank"
+            rel="noreferrer"
+            style={{ color: "red", padding: "10px" }}
+          >
+            insta
+          </a>
+
+          <div style={{ padding: "10px", color: "red" }}>get in touch </div>
         </div>
       </div>
     </>
